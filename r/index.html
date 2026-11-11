@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A recipe for you · Recipe Box</title>
+<meta name="description" content="Someone shared a recipe with you from Recipe Box.">
+<meta property="og:title" content="A recipe for you">
+<meta property="og:description" content="Open it to see the ingredients and steps, or save it to Recipe Box.">
+<meta property="og:site_name" content="Recipe Box">
+<meta name="theme-color" content="#FBF7F1">
+<meta name="apple-itunes-app" content="app-id=547151257">
+<style>
+  :root {
+    --paper: #FBF7F1; --card: #FFFFFF; --sunken: #F3EDE4; --ink: #1F1A15; --ink2: #6E655B; --ink3: #A2988C;
+    --line: #E9E1D6; --tomato: #D8452A; --tomato-soft: #FBE4DC; --herb: #3F6E45; --herb-soft: #E2EEDF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #15120F; --card: #221E1A; --sunken: #1C1915; --ink: #F5EFE7; --ink2: #B3A99D; --ink3: #7C7368;
+            --line: #34302A; --tomato: #F0664A; --tomato-soft: #3D231C; --herb: #7DB383; --herb-soft: #1F2D20; }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--paper); color: var(--ink);
+         font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  .serif { font-family: "New York", ui-serif, Georgia, "Times New Roman", serif; }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 28px 22px 120px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 600; color: var(--ink2); font-size: 15px; }
+  .brand .dot { width: 30px; height: 30px; border-radius: 8px; background: linear-gradient(160deg, #EE6240, #C43620);
+                display: grid; place-items: center; color: #fff; font-size: 16px; }
+  .eyebrow { margin-top: 34px; font-size: 12.5px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--tomato); }
+  h1 { font-size: clamp(32px, 7vw, 44px); line-height: 1.1; margin: 8px 0 12px; font-weight: 700; }
+  .summary { color: var(--ink2); margin: 0 0 18px; }
+  .stats { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 8px; }
+  .stat { background: var(--sunken); border-radius: 12px; padding: 9px 14px; min-width: 96px; }
+  .stat b { display: block; font-size: 16px; }
+  .stat span { font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink3); }
+  .from { color: var(--herb); font-weight: 600; font-size: 15px; margin-top: 10px; }
+  h2 { font-size: 26px; margin: 38px 0 12px; font-weight: 600; }
+  .servings { display: inline-flex; align-items: center; gap: 4px; background: var(--sunken); border-radius: 999px; font-size: 14px; font-weight: 600; margin-left: 10px; vertical-align: middle; }
+  .servings button { border: 0; background: none; color: var(--ink); font-size: 18px; width: 34px; height: 32px; cursor: pointer; }
+  ul.ing { list-style: none; padding: 0; margin: 0; }
+  ul.ing li { display: flex; gap: 12px; padding: 11px 0; border-bottom: 1px solid var(--line); cursor: pointer; user-select: none; }
+  ul.ing li .box { flex: 0 0 20px; height: 20px; border-radius: 50%; border: 2px solid var(--line); margin-top: 3px; }
+  ul.ing li.done { color: var(--ink3); text-decoration: line-through; }
+  ul.ing li.done .box { background: var(--herb); border-color: var(--herb); }
+  .amt { font-weight: 650; }
+  .head { font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--herb); margin: 20px 0 4px; }
+  ol.steps { list-style: none; padding: 0; margin: 0; counter-reset: s; }
+  ol.steps li { display: flex; gap: 14px; margin: 0 0 18px; }
+  ol.steps li .n { flex: 0 0 32px; height: 32px; border-radius: 50%; background: var(--tomato-soft); color: var(--tomato);
+                   font-weight: 700; display: grid; place-items: center; font-family: "New York", Georgia, serif; }
+  .notes { background: #FCF0D2; border-radius: 18px; padding: 16px 18px; margin-top: 30px; color: #1F1A15; }
+  @media (prefers-color-scheme: dark) { .notes { background: #3A3020; color: var(--ink); } }
+  .source { margin-top: 26px; font-size: 14px; color: var(--ink2); }
+  .source a { color: var(--ink2); }
+  .bar { position: fixed; left: 0; right: 0; bottom: 0; padding: 14px 18px calc(14px + env(safe-area-inset-bottom));
+         background: color-mix(in srgb, var(--paper) 88%, transparent); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+         border-top: 1px solid var(--line); }
+  .bar .inner { max-width: 680px; margin: 0 auto; display: flex; gap: 10px; }
+  .btn { flex: 1; text-align: center; padding: 15px 16px; border-radius: 15px; font-weight: 650; text-decoration: none; font-size: 16px; border: 0; cursor: pointer; }
+  .btn.primary { background: var(--tomato); color: #fff; }
+  .btn.ghost { background: var(--sunken); color: var(--ink); flex: 0 0 auto; }
+  .empty { text-align: center; padding: 80px 10px; color: var(--ink2); }
+  .empty .big { font-size: 64px; }
+  @media print { .bar, .servings button { display: none; } body { background: #fff; color: #000; } }
+</style>
+</head>
+<body>
+<div class="wrap" id="app">
+  <div class="brand"><div class="dot">🍽</div> Recipe Box</div>
+  <div class="empty" id="loading"><div class="big">🍋</div><p>Opening your recipe…</p></div>
+</div>
+<div class="bar" id="bar" hidden>
+  <div class="inner">
+    <button class="btn ghost" onclick="window.print()" aria-label="Print">Print</button>
+    <a class="btn primary" id="open" href="https://apps.apple.com/app/id547151257">Save to Recipe Box</a>
+  </div>
+</div>
+<script>
+(async function () {
+  const app = document.getElementById('app');
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const payload = location.hash.slice(1);
+
+  function fail(msg) {
+    document.getElementById('loading').innerHTML = '<div class="big">🍽️</div><p>' + msg + '</p>' +
+      '<p><a href="https://apps.apple.com/app/id547151257" style="color:var(--tomato);font-weight:600">Get Recipe Box for iPhone</a></p>';
+  }
+  if (!payload) return fail('This link is missing its recipe. Ask the sender to share it again.');
+
+  let r;
+  try {
+    const b64 = payload.replace(/-/g, '+').replace(/_/g, '/') + '==='.slice((payload.length + 3) % 4);
+    const bytes = Uint8Array.from(atob(b64), c => c.charCodeAt(0));
+    const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream('deflate-raw'));
+    r = JSON.parse(await new Response(stream).text());
+  } catch (e) {
+    return fail('This recipe link looks incomplete. Ask the sender to share it again.');
+  }
+
+  const dur = m => !m ? '' : (m < 60 ? m + ' min' : Math.floor(m / 60) + ' hr' + (m % 60 ? ' ' + (m % 60) + ' min' : ''));
+  const base = r.y || 4;
+  let servings = base;
+
+  // Quantity scaling for lines that start with an amount.
+  const fracs = { '½': .5, '⅓': 1/3, '⅔': 2/3, '¼': .25, '¾': .75, '⅛': .125, '⅜': .375, '⅝': .625, '⅞': .875 };
+  function parseQty(s) {
+    s = s.replace(/[½⅓⅔¼¾⅛⅜⅝⅞]/g, c => ' ' + fracs[c]).trim();
+    const m = s.match(/^(\d+(?:\.\d+)?(?:\s+\d+\/\d+)?|\d+\/\d+|\d*\.\d+)(?:\s*(?:-|–|to)\s*(\d+(?:\.\d+)?))?\s*(.*)$/);
+    if (!m) return null;
+    const num = t => t.includes('/') ? t.split(/\s+/).reduce((a, p) => a + (p.includes('/') ? p.split('/')[0] / p.split('/')[1] : +p), 0) : +t;
+    return { q: num(m[1]), q2: m[2] ? +m[2] : null, rest: m[3] };
+  }
+  function fmt(v) {
+    if (v >= 20) return String(Math.round(v));
+    const whole = Math.floor(v), rem = v - whole;
+    const opts = [[0, ''], [.125, '1/8'], [.25, '1/4'], [1/3, '1/3'], [.5, '1/2'], [2/3, '2/3'], [.75, '3/4'], [1, '']];
+    const best = opts.reduce((a, b) => Math.abs(b[0] - rem) < Math.abs(a[0] - rem) ? b : a);
+    const w = best[0] === 1 ? whole + 1 : whole;
+    if (!best[1]) return String(w || '1/8');
+    return w ? w + ' ' + best[1] : best[1];
+  }
+  function ingredientHTML(line) {
+    const p = parseQty(line);
+    if (!p || servings === base) {
+      const m = line.match(/^([\d½⅓⅔¼¾⅛⅜⅝⅞\/.\s-–]+(?:\s*(?:cups?|tbsp|tsp|tablespoons?|teaspoons?|oz|ounces?|lbs?|pounds?|g|grams?|kg|ml|l|cloves?|cans?))?\.?)\s+(.*)$/i);
+      return m ? '<span class="amt">' + esc(m[1].trim()) + '</span> ' + esc(m[2]) : esc(line);
+    }
+    const k = servings / base;
+    const amt = fmt(p.q * k) + (p.q2 ? '–' + fmt(p.q2 * k) : '');
+    return '<span class="amt">' + esc(amt) + '</span> ' + esc(p.rest);
+  }
+
+  function render() {
+    let n = 0;
+    const ing = (r.i || []).map((l, idx) => l.startsWith('# ')
+      ? '<div class="head">' + esc(l.slice(2)) + '</div>'
+      : '<li data-i="' + idx + '"><span class="box"></span><span>' + ingredientHTML(l) + '</span></li>').join('');
+    const steps = (r.s || []).map(l => l.startsWith('# ')
+      ? '<div class="head">' + esc(l.slice(2)) + '</div>'
+      : '<li><span class="n">' + (++n) + '</span><span>' + esc(l) + '</span></li>').join('');
+    const stats = [r.p ? ['Prep', dur(r.p)] : null, r.c ? ['Cook', dur(r.c)] : null, ['Serves', servings]]
+      .filter(Boolean).map(s => '<div class="stat"><span>' + s[0] + '</span><b>' + esc(s[1]) + '</b></div>').join('');
+    let host = '';
+    try { if (r.u) host = new URL(r.u).hostname.replace(/^www\./, ''); } catch (e) {}
+    app.innerHTML =
+      '<div class="brand"><div class="dot">🍽</div> Recipe Box</div>' +
+      (r.g && r.g.length ? '<div class="eyebrow">' + esc(r.g.slice(0, 3).join(' · ')) + '</div>' : '<div class="eyebrow">A recipe for you</div>') +
+      '<h1 class="serif">' + esc(r.t || 'Untitled recipe') + '</h1>' +
+      (r.d ? '<p class="summary">' + esc(r.d) + '</p>' : '') +
+      (r.a ? '<div class="from">Shared by ' + esc(r.a) + '</div>' : '') +
+      '<div class="stats">' + stats + '</div>' +
+      '<h2 class="serif">Ingredients <span class="servings"><button id="minus" aria-label="Fewer servings">−</button>' + servings +
+        ' serving' + (servings === 1 ? '' : 's') + '<button id="plus" aria-label="More servings">+</button></span></h2>' +
+      '<ul class="ing">' + ing + '</ul>' +
+      '<h2 class="serif">Method</h2><ol class="steps">' + steps + '</ol>' +
+      (r.n ? '<div class="notes"><b>Notes</b><br>' + esc(r.n).replace(/\n/g, '<br>') + '</div>' : '') +
+      (r.u ? '<div class="source">Original recipe: <a href="' + esc(r.u) + '" rel="noopener nofollow">' + esc(host || r.u) + '</a></div>' : '');
+    document.title = (r.t || 'Recipe') + ' · Recipe Box';
+    document.getElementById('minus').onclick = () => { servings = Math.max(1, servings - 1); render(); };
+    document.getElementById('plus').onclick = () => { servings = Math.min(99, servings + 1); render(); };
+    app.querySelectorAll('ul.ing li').forEach(li => li.onclick = () => li.classList.toggle('done'));
+  }
+  render();
+
+  const bar = document.getElementById('bar');
+  bar.hidden = false;
+  const open = document.getElementById('open');
+  const isiOS = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  if (isiOS) {
+    open.textContent = 'Save to Recipe Box';
+    open.onclick = (ev) => {
+      ev.preventDefault();
+      const started = Date.now();
+      location.href = 'recipebox://r#' + payload;
+      setTimeout(() => { if (Date.now() - started < 1800 && !document.hidden) location.href = 'https://apps.apple.com/app/id547151257'; }, 1200);
+    };
+  } else {
+    open.textContent = 'Get Recipe Box for iPhone';
+  }
+})();
+</script>
+</body>
+</html>
