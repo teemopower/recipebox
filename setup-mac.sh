@@ -14,6 +14,18 @@ if [ ! -d /Applications/Xcode.app ]; then
   open "macappstore://apps.apple.com/app/xcode/id497799835"
   exit 1
 fi
+XV=$(defaults read /Applications/Xcode.app/Contents/Info.plist CFBundleShortVersionString 2>/dev/null || echo 0)
+echo "Xcode in Applications: $XV"
+if [ "${XV%%.*}" -lt 26 ] 2>/dev/null; then
+  echo
+  echo "This Xcode ($XV) is too old to run on this macOS or to build App Store apps."
+  echo "1) Drag /Applications/Xcode.app to the Trash."
+  echo "2) Download Xcode 26.6 (.xip) from the page that's opening (sign in with your Apple ID)."
+  echo "3) Double-click the .xip, rename the result to Xcode, drag it into Applications, open it once."
+  echo "4) Run this same command again."
+  open "https://developer.apple.com/download/all/?q=Xcode%2026.6"
+  exit 1
+fi
 echo "Your Mac password may be asked for (typing won't show)."
 sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 sudo xcodebuild -license accept
