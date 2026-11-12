@@ -9,9 +9,15 @@ say() { printf "\n\033[1;34m== %s\033[0m\n" "$1"; }
 say "1/6 Checking Xcode"
 echo "macOS $(sw_vers -productVersion), $(uname -m)"
 if [ ! -d /Applications/Xcode.app ]; then
-  echo "Xcode isn't installed yet. Opening the App Store page for Xcode."
-  echo "Install it, open it once, then run this same command again."
-  open "macappstore://apps.apple.com/app/xcode/id497799835"
+  for c in /Applications/Xcode*.app "$HOME"/Downloads/Xcode*.app "$HOME"/Applications/Xcode*.app; do
+    if [ -d "$c" ]; then echo "Found $c, moving it to /Applications/Xcode.app"; sudo mv "$c" /Applications/Xcode.app; break; fi
+  done
+fi
+if [ ! -d /Applications/Xcode.app ]; then
+  echo "Xcode isn't installed yet. On an Intel Mac, download 'Xcode 26.6 Universal.xip'"
+  echo "from the page that's opening, unpack it, put it in Applications, open it once,"
+  echo "then run this same command again."
+  open "https://developer.apple.com/download/all/?q=Xcode%2026.6"
   exit 1
 fi
 XV=$(defaults read /Applications/Xcode.app/Contents/Info.plist CFBundleShortVersionString 2>/dev/null || echo 0)
