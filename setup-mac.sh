@@ -45,20 +45,18 @@ if ! xcrun simctl list runtimes 2>/dev/null | grep -q "iOS"; then
 fi
 xcrun simctl list runtimes | grep iOS | tail -1
 
-say "3/6 Checking Homebrew"
-if ! command -v brew >/dev/null 2>&1; then
-  for b in /opt/homebrew/bin/brew /usr/local/bin/brew; do [ -x "$b" ] && eval "$($b shellenv)"; done
-fi
-if ! command -v brew >/dev/null 2>&1; then
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  for b in /opt/homebrew/bin/brew /usr/local/bin/brew; do [ -x "$b" ] && eval "$($b shellenv)"; done
-  BREW_LINE="eval \"\$($(command -v brew) shellenv)\""
-  grep -qF "$BREW_LINE" "$HOME/.zprofile" 2>/dev/null || echo "$BREW_LINE" >> "$HOME/.zprofile"
-fi
-brew --version | head -1
+say "3/6 (Homebrew not needed, skipping)"
 
 say "4/6 Installing XcodeGen"
-command -v xcodegen >/dev/null 2>&1 || brew install xcodegen
+if ! command -v xcodegen >/dev/null 2>&1; then
+  TMP=$(mktemp -d)
+  curl -fL -o "$TMP/xcodegen.zip" https://github.com/yonaskolb/XcodeGen/releases/latest/download/xcodegen.zip
+  unzip -q "$TMP/xcodegen.zip" -d "$TMP"
+  sudo rm -rf /usr/local/xcodegen && sudo mkdir -p /usr/local/bin
+  sudo mv "$TMP/xcodegen" /usr/local/xcodegen
+  sudo ln -sf /usr/local/xcodegen/bin/xcodegen /usr/local/bin/xcodegen
+  rm -rf "$TMP"
+fi
 xcodegen --version
 
 say "5/6 Installing the GitHub runner"
