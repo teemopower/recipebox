@@ -1,0 +1,82 @@
+{
+  "id": "gta6",
+  "title": "GTA VI",
+  "subtitle": "Leonida checklist",
+  "version": 1,
+  "updated": "Nov 13, 2026",
+  "disclaimer": "Unofficial fan-made checklist. Not affiliated with, endorsed or sponsored by Rockstar Games or Take-Two Interactive. Grand Theft Auto and GTA are trademarks of Take-Two Interactive.",
+  "colors": ["#FF4FA3", "#FF9F43"],
+  "news": "Launch pack: every region and side activity Rockstar has confirmed. Story missions, collectibles, vehicles and trophies are added here as players find them after launch on Nov 19. No app update needed.",
+  "categories": [
+    {
+      "id": "explore",
+      "name": "Explore Leonida",
+      "icon": "map",
+      "note": "The six regions Rockstar has shown, plus named spots in Vice City.",
+      "items": [
+        {"id": "gta6.r.vice-city", "name": "Reach Vice City", "detail": "The neon, beach-and-nightlife heart of Leonida.", "group": "Regions"},
+        {"id": "gta6.r.keys", "name": "Island-hop the Leonida Keys", "detail": "Bridges, bars and turquoise water south of the city.", "group": "Regions"},
+        {"id": "gta6.r.grassrivers", "name": "Head into the Grassrivers", "detail": "Swampy wetlands with mangroves and gators.", "group": "Regions"},
+        {"id": "gta6.r.port-gellhorn", "name": "Visit Port Gellhorn", "detail": "A run-down old vacation coast with cheap motels.", "group": "Regions"},
+        {"id": "gta6.r.ambrosia", "name": "Roll through Ambrosia", "detail": "Leonida's industrial and farming country.", "group": "Regions"},
+        {"id": "gta6.r.kalaga", "name": "Explore Mount Kalaga National Park", "detail": "Wild parkland up on the northern border.", "group": "Regions"},
+        {"id": "gta6.p.ocean-beach", "name": "Walk Ocean Beach", "detail": "Vice City's beachfront strip.", "group": "Vice City"},
+        {"id": "gta6.p.little-cuba", "name": "Eat your way through Little Cuba", "detail": "One of Vice City's named neighborhoods.", "group": "Vice City"},
+        {"id": "gta6.p.flea-market", "name": "Browse the Tisha-Wocka flea market", "detail": "A named Vice City market.", "group": "Vice City"},
+        {"id": "gta6.p.port", "name": "Check out the Vice City port", "detail": "The busy commercial waterfront.", "group": "Vice City"},
+        {"id": "gta6.w.turtle", "name": "Spot a sea turtle", "detail": "Keep an eye on the water around the Keys.", "group": "Wildlife"},
+        {"id": "gta6.w.gator", "name": "Spot an alligator", "detail": "The Grassrivers are full of them. Keep your distance.", "group": "Wildlife"}
+      ]
+    },
+    {
+      "id": "activities",
+      "name": "Side activities",
+      "icon": "sports",
+      "note": "Activities confirmed in previews. Try each one at least once.",
+      "items": [
+        {"id": "gta6.a.airboat", "name": "Take an airboat ride", "detail": "Built for the shallow swamp water of the Grassrivers.", "group": "Water"},
+        {"id": "gta6.a.jetski", "name": "Go jet skiing", "group": "Water"},
+        {"id": "gta6.a.kayak", "name": "Paddle a kayak", "group": "Water"},
+        {"id": "gta6.a.scuba", "name": "Go scuba diving", "group": "Water"},
+        {"id": "gta6.a.fishing", "name": "Catch a fish", "group": "Outdoors"},
+        {"id": "gta6.a.hunting", "name": "Go hunting", "detail": "Mount Kalaga is known for hunting and fishing.", "group": "Outdoors"},
+        {"id": "gta6.a.basejump", "name": "Land a base jump", "group": "Outdoors"},
+        {"id": "gta6.a.zoo", "name": "Visit the zoo", "group": "Outdoors"},
+        {"id": "gta6.a.street-race", "name": "Win a street race", "group": "Racing"},
+        {"id": "gta6.a.offroad", "name": "Win an off-road race", "group": "Racing"},
+        {"id": "gta6.a.gym", "name": "Work out at a gym", "group": "Leisure"},
+        {"id": "gta6.a.basketball", "name": "Shoot some hoops", "group": "Leisure"},
+        {"id": "gta6.a.pool", "name": "Play a game of pool", "group": "Leisure"},
+        {"id": "gta6.a.minigolf", "name": "Finish a round of mini golf", "group": "Leisure"}
+      ]
+    },
+    {
+      "id": "story",
+      "name": "Story missions",
+      "icon": "movie",
+      "note": "Filling in after launch on Nov 19. Spoiler-free names only. Add your own in the meantime.",
+      "items": []
+    },
+    {
+      "id": "collectibles",
+      "name": "Collectibles",
+      "icon": "star",
+      "note": "Filling in as players find them after launch. Add your own finds in the meantime.",
+      "items": []
+    },
+    {
+      "id": "vehicles",
+      "name": "Vehicle collection",
+      "icon": "car",
+      "note": "Your garage checklist. Filling in after launch. Add cars as you get them.",
+      "items": []
+    },
+    {
+      "id": "trophies",
+      "name": "Trophies & achievements",
+      "icon": "trophy",
+      "note": "Added once the official list is out.",
+      "items": []
+    }
+  ]
+}
