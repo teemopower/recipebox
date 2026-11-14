@@ -1,0 +1,200 @@
+{
+ "id": "wolv",
+ "title": "Marvel's Wolverine",
+ "subtitle": "PS5 100% checklist",
+ "version": 1,
+ "updated": "Nov 13, 2026",
+ "disclaimer": "Unofficial fan-made checklist. Not affiliated with, endorsed or sponsored by Marvel, Insomniac Games or Sony Interactive Entertainment. Marvel's Wolverine is a trademark of its respective owners.",
+ "colors": [
+  "#F5C518",
+  "#2B6CB0"
+ ],
+ "news": "New: a 100% checklist for Marvel's Wolverine. Story regions, all 102 collectibles in milestones, and the big completion goals.",
+ "categories": [
+  {
+   "id": "story",
+   "name": "Story",
+   "icon": "map",
+   "note": "Logan's trip, region by region. Spoiler-free.",
+   "items": [
+    {
+     "id": "wolv.s.finish-the-canada-chapter",
+     "name": "Finish the Canada chapter",
+     "detail": "Logan's opening stretch in the Canadian wilds."
+    },
+    {
+     "id": "wolv.s.first-trip-to-madripoor",
+     "name": "First trip to Madripoor",
+     "detail": "The island city, first visit."
+    },
+    {
+     "id": "wolv.s.japan",
+     "name": "Japan",
+     "detail": "The story heads to Japan."
+    },
+    {
+     "id": "wolv.s.back-to-madripoor",
+     "name": "Back to Madripoor",
+     "detail": "Your second visit to the island."
+    },
+    {
+     "id": "wolv.s.roll-the-credits",
+     "name": "Roll the credits",
+     "detail": "Finish the main story."
+    }
+   ]
+  },
+  {
+   "id": "crates",
+   "name": "Material Crates",
+   "icon": "list",
+   "note": "68 crates in all. Equip the Crate Finder adaptation to spot them through walls.",
+   "items": [
+    {
+     "id": "wolv.c.material-crates-10-68",
+     "name": "Material Crates 10/68",
+     "detail": "Keep going: crates feed your upgrades."
+    },
+    {
+     "id": "wolv.c.material-crates-20-68",
+     "name": "Material Crates 20/68",
+     "detail": "Keep going: crates feed your upgrades."
+    },
+    {
+     "id": "wolv.c.material-crates-30-68",
+     "name": "Material Crates 30/68",
+     "detail": "Keep going: crates feed your upgrades."
+    },
+    {
+     "id": "wolv.c.material-crates-40-68",
+     "name": "Material Crates 40/68",
+     "detail": "Keep going: crates feed your upgrades."
+    },
+    {
+     "id": "wolv.c.material-crates-50-68",
+     "name": "Material Crates 50/68",
+     "detail": "Keep going: crates feed your upgrades."
+    },
+    {
+     "id": "wolv.c.material-crates-60-68",
+     "name": "Material Crates 60/68",
+     "detail": "Keep going: crates feed your upgrades."
+    },
+    {
+     "id": "wolv.c.material-crates-68-68",
+     "name": "Material Crates 68/68",
+     "detail": "All 68 found."
+    }
+   ]
+  },
+  {
+   "id": "whisky",
+   "name": "Whisky Bottles",
+   "icon": "star",
+   "note": "20 bottles. Finding all of them unlocks a suit.",
+   "items": [
+    {
+     "id": "wolv.w.whisky-bottles-5-20",
+     "name": "Whisky Bottles 5/20",
+     "detail": "Each bottle also builds your Adaptation progress."
+    },
+    {
+     "id": "wolv.w.whisky-bottles-10-20",
+     "name": "Whisky Bottles 10/20",
+     "detail": "Each bottle also builds your Adaptation progress."
+    },
+    {
+     "id": "wolv.w.whisky-bottles-15-20",
+     "name": "Whisky Bottles 15/20",
+     "detail": "Each bottle also builds your Adaptation progress."
+    },
+    {
+     "id": "wolv.w.whisky-bottles-20-20",
+     "name": "Whisky Bottles 20/20",
+     "detail": "All 20 found."
+    }
+   ]
+  },
+  {
+   "id": "doors",
+   "name": "Nightmare Doors",
+   "icon": "trophy",
+   "note": "14 Nightmare Doors, each one a trial.",
+   "items": [
+    {
+     "id": "wolv.n.nightmare-doors-2-14",
+     "name": "Nightmare Doors 2/14",
+     "detail": "Clear the trial behind each door."
+    },
+    {
+     "id": "wolv.n.nightmare-doors-4-14",
+     "name": "Nightmare Doors 4/14",
+     "detail": "Clear the trial behind each door."
+    },
+    {
+     "id": "wolv.n.nightmare-doors-6-14",
+     "name": "Nightmare Doors 6/14",
+     "detail": "Clear the trial behind each door."
+    },
+    {
+     "id": "wolv.n.nightmare-doors-8-14",
+     "name": "Nightmare Doors 8/14",
+     "detail": "Clear the trial behind each door."
+    },
+    {
+     "id": "wolv.n.nightmare-doors-10-14",
+     "name": "Nightmare Doors 10/14",
+     "detail": "Clear the trial behind each door."
+    },
+    {
+     "id": "wolv.n.nightmare-doors-12-14",
+     "name": "Nightmare Doors 12/14",
+     "detail": "Clear the trial behind each door."
+    },
+    {
+     "id": "wolv.n.nightmare-doors-14-14",
+     "name": "Nightmare Doors 14/14",
+     "detail": "All 14 found."
+    }
+   ]
+  },
+  {
+   "id": "goals",
+   "name": "Completion goals",
+   "icon": "sports",
+   "note": "The big milestones for a full file.",
+   "items": [
+    {
+     "id": "wolv.g.all-102-collectibles",
+     "name": "All 102 collectibles",
+     "detail": "68 crates, 20 bottles and 14 Nightmare Doors."
+    },
+    {
+     "id": "wolv.g.adaptation-level-10",
+     "name": "Adaptation Level 10",
+     "detail": "Max out Logan's adaptations."
+    },
+    {
+     "id": "wolv.g.hit-rage-tier-3",
+     "name": "Hit Rage Tier 3",
+     "detail": "Fill the rage meter all the way."
+    },
+    {
+     "id": "wolv.g.unlock-every-standard-suit",
+     "name": "Unlock every standard suit",
+     "detail": "Deluxe Edition suits don't count."
+    },
+    {
+     "id": "wolv.g.unlock-the-whisky-reward-suit",
+     "name": "Unlock the whisky reward suit",
+     "detail": "Your prize for all 20 bottles."
+    },
+    {
+     "id": "wolv.g.every-trophy",
+     "name": "Every trophy",
+     "detail": "The full trophy list for the platinum."
+    }
+   ]
+  }
+ ]
+}

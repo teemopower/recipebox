@@ -1,0 +1,169 @@
+{
+ "id": "cvbc",
+ "title": "Castlevania: Belmont's Curse",
+ "subtitle": "100% completion checklist",
+ "version": 1,
+ "updated": "Nov 13, 2026",
+ "disclaimer": "Unofficial fan-made checklist. Not affiliated with, endorsed or sponsored by KONAMI. Castlevania is a trademark of KONAMI.",
+ "colors": [
+  "#B3123A",
+  "#6E3BA8"
+ ],
+ "news": "New: a 100% checklist for Castlevania: Belmont's Curse. Every area, all 16 bosses, both endings and every collection.",
+ "categories": [
+  {
+   "id": "areas",
+   "name": "Explore every area",
+   "icon": "map",
+   "note": "Each area shows its own completion percentage in the game. Get them all to 100%.",
+   "items": [
+    {
+     "id": "cvbc.a.streets-of-paris-100",
+     "name": "Streets of Paris: 100%",
+     "detail": "Reveal the whole map and grab everything here."
+    },
+    {
+     "id": "cvbc.a.holy-innocents-cemetery-100",
+     "name": "Holy Innocents' Cemetery: 100%",
+     "detail": "Reveal the whole map and grab everything here."
+    },
+    {
+     "id": "cvbc.a.catacombs-of-paris-100",
+     "name": "Catacombs of Paris: 100%",
+     "detail": "Reveal the whole map and grab everything here."
+    },
+    {
+     "id": "cvbc.a.main-hall-100",
+     "name": "Main Hall: 100%",
+     "detail": "Reveal the whole map and grab everything here."
+    },
+    {
+     "id": "cvbc.a.library-100",
+     "name": "Library: 100%",
+     "detail": "Reveal the whole map and grab everything here."
+    },
+    {
+     "id": "cvbc.a.clock-tower-100",
+     "name": "Clock Tower: 100%",
+     "detail": "Reveal the whole map and grab everything here."
+    },
+    {
+     "id": "cvbc.a.notre-dame-100",
+     "name": "Notre-Dame: 100%",
+     "detail": "Reveal the whole map and grab everything here."
+    },
+    {
+     "id": "cvbc.a.hall-of-mirrors-100",
+     "name": "Hall of Mirrors: 100%",
+     "detail": "Reveal the whole map and grab everything here."
+    },
+    {
+     "id": "cvbc.a.master-s-quarters-100",
+     "name": "Master's Quarters: 100%",
+     "detail": "Reveal the whole map and grab everything here."
+    }
+   ]
+  },
+  {
+   "id": "bosses",
+   "name": "Bosses",
+   "icon": "trophy",
+   "note": "16 bosses stand in Rose's way.",
+   "items": [
+    {
+     "id": "cvbc.b.bosses-defeated-4-16",
+     "name": "Bosses defeated 4/16",
+     "detail": "Keep hunting. Some bosses are optional."
+    },
+    {
+     "id": "cvbc.b.bosses-defeated-8-16",
+     "name": "Bosses defeated 8/16",
+     "detail": "Keep hunting. Some bosses are optional."
+    },
+    {
+     "id": "cvbc.b.bosses-defeated-12-16",
+     "name": "Bosses defeated 12/16",
+     "detail": "Keep hunting. Some bosses are optional."
+    },
+    {
+     "id": "cvbc.b.bosses-defeated-16-16",
+     "name": "Bosses defeated 16/16",
+     "detail": "All 16 found."
+    }
+   ]
+  },
+  {
+   "id": "collect",
+   "name": "Collections",
+   "icon": "list",
+   "note": "The collections that count toward 100%.",
+   "items": [
+    {
+     "id": "cvbc.c.every-weapon",
+     "name": "Every weapon",
+     "detail": "All 28 weapons.",
+     "group": "Gear"
+    },
+    {
+     "id": "cvbc.c.every-relic",
+     "name": "Every Relic",
+     "detail": "Check every chest, breakable wall and arena.",
+     "group": "Gear"
+    },
+    {
+     "id": "cvbc.c.all-stat-upgrades",
+     "name": "All stat upgrades",
+     "detail": "Heart fragments and every other stat boost.",
+     "group": "Upgrades"
+    },
+    {
+     "id": "cvbc.c.every-mirror-of-life",
+     "name": "Every Mirror of Life",
+     "detail": "",
+     "group": "Upgrades"
+    },
+    {
+     "id": "cvbc.c.every-clue",
+     "name": "Every clue",
+     "detail": "",
+     "group": "Secrets"
+    },
+    {
+     "id": "cvbc.c.every-tarot-card-complete",
+     "name": "Every Tarot Card complete",
+     "detail": "",
+     "group": "Arcana"
+    },
+    {
+     "id": "cvbc.c.every-arcana-levelled",
+     "name": "Every Arcana levelled",
+     "detail": "Finish each Arcana's Works of Mercy.",
+     "group": "Arcana"
+    }
+   ]
+  },
+  {
+   "id": "endings",
+   "name": "Endings",
+   "icon": "star",
+   "note": "See both endings.",
+   "items": [
+    {
+     "id": "cvbc.e.normal-ending",
+     "name": "Normal ending",
+     "detail": "About 12 hours for most players."
+    },
+    {
+     "id": "cvbc.e.true-ending",
+     "name": "True ending",
+     "detail": "Needed for 100%, and for the last area to count."
+    },
+    {
+     "id": "cvbc.e.100-game-completion",
+     "name": "100% game completion",
+     "detail": "The Progress percentage on the System tab reads 100%."
+    }
+   ]
+  }
+ ]
+}

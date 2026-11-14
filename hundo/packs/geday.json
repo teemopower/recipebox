@@ -1,0 +1,142 @@
+{
+ "id": "geday",
+ "title": "Gears of War: E-Day",
+ "subtitle": "Campaign 100% checklist",
+ "version": 1,
+ "updated": "Nov 13, 2026",
+ "disclaimer": "Unofficial fan-made checklist. Not affiliated with, endorsed or sponsored by Microsoft, Xbox Game Studios or The Coalition. Gears of War is a trademark of Microsoft.",
+ "colors": [
+  "#C0392B",
+  "#5D6D7E"
+ ],
+ "news": "New: a campaign checklist for Gears of War: E-Day. Every act, all 140 collectibles by act, and the big achievements.",
+ "categories": [
+  {
+   "id": "story",
+   "name": "Campaign",
+   "icon": "map",
+   "note": "A Prologue, five Acts (26 chapters) and an Epilogue.",
+   "items": [
+    {
+     "id": "geday.s.prologue",
+     "name": "Prologue",
+     "detail": ""
+    },
+    {
+     "id": "geday.s.act-1",
+     "name": "Act 1",
+     "detail": "Four chapters."
+    },
+    {
+     "id": "geday.s.act-2",
+     "name": "Act 2",
+     "detail": "Where the bigger, semi-open areas begin."
+    },
+    {
+     "id": "geday.s.act-3",
+     "name": "Act 3",
+     "detail": "Six chapters."
+    },
+    {
+     "id": "geday.s.act-4",
+     "name": "Act 4",
+     "detail": "Six chapters, the longest act."
+    },
+    {
+     "id": "geday.s.act-5",
+     "name": "Act 5",
+     "detail": "The finale."
+    },
+    {
+     "id": "geday.s.epilogue",
+     "name": "Epilogue",
+     "detail": ""
+    },
+    {
+     "id": "geday.s.beat-the-campaign-on-insane",
+     "name": "Beat the campaign on Insane",
+     "detail": "For the hardest difficulty achievement."
+    }
+   ]
+  },
+  {
+   "id": "collectibles",
+   "name": "Collectibles",
+   "icon": "list",
+   "note": "140 collectibles in all, tracked in the War Journal by act and chapter. Some can be missed, so explore before moving on.",
+   "items": [
+    {
+     "id": "geday.c.act-1-collectibles",
+     "name": "Act 1 collectibles",
+     "detail": "All 13."
+    },
+    {
+     "id": "geday.c.act-2-collectibles",
+     "name": "Act 2 collectibles",
+     "detail": "Every one in Act 2."
+    },
+    {
+     "id": "geday.c.act-3-collectibles",
+     "name": "Act 3 collectibles",
+     "detail": "All 36."
+    },
+    {
+     "id": "geday.c.act-4-collectibles",
+     "name": "Act 4 collectibles",
+     "detail": "All 41, the most of any act."
+    },
+    {
+     "id": "geday.c.act-5-collectibles",
+     "name": "Act 5 collectibles",
+     "detail": "Every one in the finale."
+    },
+    {
+     "id": "geday.c.all-140-collectibles",
+     "name": "All 140 collectibles",
+     "detail": "Unlocks the collectibles achievement."
+    }
+   ]
+  },
+  {
+   "id": "extras",
+   "name": "Hard Cases & side goals",
+   "icon": "star",
+   "note": "Side content in the bigger, more open chapters.",
+   "items": [
+    {
+     "id": "geday.x.every-hard-case",
+     "name": "Every Hard Case",
+     "detail": "Open them all, act by act."
+    },
+    {
+     "id": "geday.x.every-secondary-objective",
+     "name": "Every Secondary Objective",
+     "detail": ""
+    },
+    {
+     "id": "geday.x.every-supply-cache",
+     "name": "Every Supply Cache",
+     "detail": ""
+    }
+   ]
+  },
+  {
+   "id": "goals",
+   "name": "Big goals",
+   "icon": "trophy",
+   "note": "Xbox lists 54 achievements worth 1,000 Gamerscore.",
+   "items": [
+    {
+     "id": "geday.g.finish-the-campaign-in-co-op",
+     "name": "Finish the campaign in co-op",
+     "detail": ""
+    },
+    {
+     "id": "geday.g.1-000-gamerscore",
+     "name": "1,000 Gamerscore",
+     "detail": "Every achievement, including Horde and Versus."
+    }
+   ]
+  }
+ ]
+}
