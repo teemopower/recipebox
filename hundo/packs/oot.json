@@ -1,0 +1,677 @@
+{
+ "id": "oot",
+ "title": "Ocarina of Time",
+ "subtitle": "Switch 2 remake checklist",
+ "version": 1,
+ "updated": "Nov 13, 2026",
+ "disclaimer": "Unofficial fan-made checklist. Not affiliated with, endorsed or sponsored by Nintendo. The Legend of Zelda and Ocarina of Time are trademarks of Nintendo.",
+ "colors": [
+  "#2FBF71",
+  "#E8B923"
+ ],
+ "news": "New: a 100% checklist for the Switch 2 remake. Dungeons, songs, stones and medallions, hearts, Gold Skulltula rewards, items, gear and all five bottles.",
+ "categories": [
+  {
+   "id": "dungeons",
+   "name": "Dungeons",
+   "icon": "map",
+   "note": "Clear every dungeon, from the Great Deku Tree to the final castle.",
+   "items": [
+    {
+     "id": "oot.d.inside-the-deku-tree",
+     "name": "Inside the Deku Tree",
+     "detail": "Young Link's first dungeon, in Kokiri Forest.",
+     "group": "Young Link"
+    },
+    {
+     "id": "oot.d.dodongo-s-cavern",
+     "name": "Dodongo's Cavern",
+     "detail": "The volcanic cave on Death Mountain.",
+     "group": "Young Link"
+    },
+    {
+     "id": "oot.d.inside-jabu-jabu-s-belly",
+     "name": "Inside Jabu-Jabu's Belly",
+     "detail": "Inside the great fish of Zora's Fountain.",
+     "group": "Young Link"
+    },
+    {
+     "id": "oot.d.forest-temple",
+     "name": "Forest Temple",
+     "detail": "The overgrown temple past the Lost Woods.",
+     "group": "Adult Link"
+    },
+    {
+     "id": "oot.d.fire-temple",
+     "name": "Fire Temple",
+     "detail": "Deep inside Death Mountain Crater.",
+     "group": "Adult Link"
+    },
+    {
+     "id": "oot.d.water-temple",
+     "name": "Water Temple",
+     "detail": "At the bottom of Lake Hylia.",
+     "group": "Adult Link"
+    },
+    {
+     "id": "oot.d.shadow-temple",
+     "name": "Shadow Temple",
+     "detail": "Hidden beneath the Kakariko graveyard.",
+     "group": "Adult Link"
+    },
+    {
+     "id": "oot.d.spirit-temple",
+     "name": "Spirit Temple",
+     "detail": "Out in the Desert Colossus, cleared in both eras.",
+     "group": "Adult Link"
+    },
+    {
+     "id": "oot.d.ganon-s-castle",
+     "name": "Ganon's Castle",
+     "detail": "The final stronghold. Defeat Ganon to finish the story.",
+     "group": "Adult Link"
+    },
+    {
+     "id": "oot.d.bottom-of-the-well",
+     "name": "Bottom of the Well",
+     "detail": "The haunted well in Kakariko Village.",
+     "group": "Mini dungeons"
+    },
+    {
+     "id": "oot.d.ice-cavern",
+     "name": "Ice Cavern",
+     "detail": "The frozen cave above Zora's Fountain.",
+     "group": "Mini dungeons"
+    },
+    {
+     "id": "oot.d.gerudo-proving-grounds",
+     "name": "Gerudo Proving Grounds",
+     "detail": "The Gerudo training course, renamed in the remake (30 Rupees a try).",
+     "group": "Mini dungeons"
+    }
+   ]
+  },
+  {
+   "id": "songs",
+   "name": "Ocarina songs",
+   "icon": "star",
+   "note": "Every melody Link can learn. On Switch 2 you can even hum them into the microphone.",
+   "items": [
+    {
+     "id": "oot.s.zelda-s-lullaby",
+     "name": "Zelda's Lullaby",
+     "detail": "Taught at Hyrule Castle.",
+     "group": "Melodies"
+    },
+    {
+     "id": "oot.s.epona-s-song",
+     "name": "Epona's Song",
+     "detail": "Learned at Lon Lon Ranch.",
+     "group": "Melodies"
+    },
+    {
+     "id": "oot.s.saria-s-song",
+     "name": "Saria's Song",
+     "detail": "Learned in the Sacred Forest Meadow.",
+     "group": "Melodies"
+    },
+    {
+     "id": "oot.s.sun-s-song",
+     "name": "Sun's Song",
+     "detail": "Found in the Royal Family's Tomb.",
+     "group": "Melodies"
+    },
+    {
+     "id": "oot.s.song-of-time",
+     "name": "Song of Time",
+     "detail": "Received with the Ocarina of Time.",
+     "group": "Melodies"
+    },
+    {
+     "id": "oot.s.song-of-storms",
+     "name": "Song of Storms",
+     "detail": "Learned in the Kakariko windmill.",
+     "group": "Melodies"
+    },
+    {
+     "id": "oot.s.scarecrow-s-song",
+     "name": "Scarecrow's Song",
+     "detail": "Your own tune, taught to the Lake Hylia scarecrows.",
+     "group": "Melodies"
+    },
+    {
+     "id": "oot.s.minuet-of-forest",
+     "name": "Minuet of Forest",
+     "detail": "Warp to the Sacred Forest Meadow.",
+     "group": "Warp songs"
+    },
+    {
+     "id": "oot.s.bolero-of-fire",
+     "name": "Bolero of Fire",
+     "detail": "Warp to Death Mountain Crater.",
+     "group": "Warp songs"
+    },
+    {
+     "id": "oot.s.serenade-of-water",
+     "name": "Serenade of Water",
+     "detail": "Warp to Lake Hylia.",
+     "group": "Warp songs"
+    },
+    {
+     "id": "oot.s.nocturne-of-shadow",
+     "name": "Nocturne of Shadow",
+     "detail": "Warp to the Kakariko graveyard.",
+     "group": "Warp songs"
+    },
+    {
+     "id": "oot.s.requiem-of-spirit",
+     "name": "Requiem of Spirit",
+     "detail": "Warp to the Desert Colossus.",
+     "group": "Warp songs"
+    },
+    {
+     "id": "oot.s.prelude-of-light",
+     "name": "Prelude of Light",
+     "detail": "Warp to the Temple of Time.",
+     "group": "Warp songs"
+    }
+   ]
+  },
+  {
+   "id": "stones",
+   "name": "Stones & medallions",
+   "icon": "trophy",
+   "note": "The three Spiritual Stones and six Sage medallions.",
+   "items": [
+    {
+     "id": "oot.m.kokiri-emerald",
+     "name": "Kokiri Emerald",
+     "detail": "Spiritual Stone of the Forest.",
+     "group": "Spiritual Stones"
+    },
+    {
+     "id": "oot.m.goron-ruby",
+     "name": "Goron Ruby",
+     "detail": "Spiritual Stone of Fire.",
+     "group": "Spiritual Stones"
+    },
+    {
+     "id": "oot.m.zora-sapphire",
+     "name": "Zora Sapphire",
+     "detail": "Spiritual Stone of Water.",
+     "group": "Spiritual Stones"
+    },
+    {
+     "id": "oot.m.light-medallion",
+     "name": "Light Medallion",
+     "detail": "Awakens the Sage of Light.",
+     "group": "Medallions"
+    },
+    {
+     "id": "oot.m.forest-medallion",
+     "name": "Forest Medallion",
+     "detail": "Awakens the Sage of Forest.",
+     "group": "Medallions"
+    },
+    {
+     "id": "oot.m.fire-medallion",
+     "name": "Fire Medallion",
+     "detail": "Awakens the Sage of Fire.",
+     "group": "Medallions"
+    },
+    {
+     "id": "oot.m.water-medallion",
+     "name": "Water Medallion",
+     "detail": "Awakens the Sage of Water.",
+     "group": "Medallions"
+    },
+    {
+     "id": "oot.m.shadow-medallion",
+     "name": "Shadow Medallion",
+     "detail": "Awakens the Sage of Shadow.",
+     "group": "Medallions"
+    },
+    {
+     "id": "oot.m.spirit-medallion",
+     "name": "Spirit Medallion",
+     "detail": "Awakens the Sage of Spirit.",
+     "group": "Medallions"
+    }
+   ]
+  },
+  {
+   "id": "hearts",
+   "name": "Hearts",
+   "icon": "list",
+   "note": "Max out at 20 hearts: 3 to start, 8 from bosses and 9 from the 36 Pieces of Heart. Some pieces moved in the remake.",
+   "items": [
+    {
+     "id": "oot.h.defeat-gohma",
+     "name": "Defeat Gohma",
+     "detail": "Boss of the Deku Tree dungeon; drops a Heart Container.",
+     "group": "Boss Heart Containers"
+    },
+    {
+     "id": "oot.h.defeat-king-dodongo",
+     "name": "Defeat King Dodongo",
+     "detail": "Boss of the Dodongo's Cavern; drops a Heart Container.",
+     "group": "Boss Heart Containers"
+    },
+    {
+     "id": "oot.h.defeat-barinade",
+     "name": "Defeat Barinade",
+     "detail": "Boss of the Jabu-Jabu's Belly; drops a Heart Container.",
+     "group": "Boss Heart Containers"
+    },
+    {
+     "id": "oot.h.defeat-phantom-ganon",
+     "name": "Defeat Phantom Ganon",
+     "detail": "Boss of the Forest Temple; drops a Heart Container.",
+     "group": "Boss Heart Containers"
+    },
+    {
+     "id": "oot.h.defeat-volvagia",
+     "name": "Defeat Volvagia",
+     "detail": "Boss of the Fire Temple; drops a Heart Container.",
+     "group": "Boss Heart Containers"
+    },
+    {
+     "id": "oot.h.defeat-morpha",
+     "name": "Defeat Morpha",
+     "detail": "Boss of the Water Temple; drops a Heart Container.",
+     "group": "Boss Heart Containers"
+    },
+    {
+     "id": "oot.h.defeat-bongo-bongo",
+     "name": "Defeat Bongo Bongo",
+     "detail": "Boss of the Shadow Temple; drops a Heart Container.",
+     "group": "Boss Heart Containers"
+    },
+    {
+     "id": "oot.h.defeat-twinrova",
+     "name": "Defeat Twinrova",
+     "detail": "Boss of the Spirit Temple; drops a Heart Container.",
+     "group": "Boss Heart Containers"
+    },
+    {
+     "id": "oot.h.heart-pieces-4-36",
+     "name": "Heart Pieces 4/36",
+     "detail": "Every 4 pieces add a heart. That's heart 1 of 9 from pieces.",
+     "group": "Pieces of Heart"
+    },
+    {
+     "id": "oot.h.heart-pieces-8-36",
+     "name": "Heart Pieces 8/36",
+     "detail": "Every 4 pieces add a heart. That's heart 2 of 9 from pieces.",
+     "group": "Pieces of Heart"
+    },
+    {
+     "id": "oot.h.heart-pieces-12-36",
+     "name": "Heart Pieces 12/36",
+     "detail": "Every 4 pieces add a heart. That's heart 3 of 9 from pieces.",
+     "group": "Pieces of Heart"
+    },
+    {
+     "id": "oot.h.heart-pieces-16-36",
+     "name": "Heart Pieces 16/36",
+     "detail": "Every 4 pieces add a heart. That's heart 4 of 9 from pieces.",
+     "group": "Pieces of Heart"
+    },
+    {
+     "id": "oot.h.heart-pieces-20-36",
+     "name": "Heart Pieces 20/36",
+     "detail": "Every 4 pieces add a heart. That's heart 5 of 9 from pieces.",
+     "group": "Pieces of Heart"
+    },
+    {
+     "id": "oot.h.heart-pieces-24-36",
+     "name": "Heart Pieces 24/36",
+     "detail": "Every 4 pieces add a heart. That's heart 6 of 9 from pieces.",
+     "group": "Pieces of Heart"
+    },
+    {
+     "id": "oot.h.heart-pieces-28-36",
+     "name": "Heart Pieces 28/36",
+     "detail": "Every 4 pieces add a heart. That's heart 7 of 9 from pieces.",
+     "group": "Pieces of Heart"
+    },
+    {
+     "id": "oot.h.heart-pieces-32-36",
+     "name": "Heart Pieces 32/36",
+     "detail": "Every 4 pieces add a heart. That's heart 8 of 9 from pieces.",
+     "group": "Pieces of Heart"
+    },
+    {
+     "id": "oot.h.heart-pieces-36-36",
+     "name": "Heart Pieces 36/36",
+     "detail": "Every 4 pieces add a heart. That's heart 9 of 9 from pieces.",
+     "group": "Pieces of Heart"
+    }
+   ]
+  },
+  {
+   "id": "skulltulas",
+   "name": "Gold Skulltulas",
+   "icon": "sports",
+   "note": "100 tokens in all. Turn them in at the House of Skulltula in Kakariko for each reward.",
+   "items": [
+    {
+     "id": "oot.g.10-tokens",
+     "name": "10 tokens",
+     "detail": "Reward: the Adult's Wallet.",
+     "group": "Token rewards"
+    },
+    {
+     "id": "oot.g.20-tokens",
+     "name": "20 tokens",
+     "detail": "Reward: the Echo Gem, new in the remake. It helps you find nearby Gold Skulltulas.",
+     "group": "Token rewards"
+    },
+    {
+     "id": "oot.g.30-tokens",
+     "name": "30 tokens",
+     "detail": "Reward: the Giant's Wallet.",
+     "group": "Token rewards"
+    },
+    {
+     "id": "oot.g.40-tokens",
+     "name": "40 tokens",
+     "detail": "Claim the 40-token reward.",
+     "group": "Token rewards"
+    },
+    {
+     "id": "oot.g.50-tokens",
+     "name": "50 tokens",
+     "detail": "Claim the 50-token reward.",
+     "group": "Token rewards"
+    },
+    {
+     "id": "oot.g.100-tokens",
+     "name": "100 tokens",
+     "detail": "All 100 found. Claim the final reward.",
+     "group": "Token rewards"
+    }
+   ]
+  },
+  {
+   "id": "items",
+   "name": "Items",
+   "icon": "sports",
+   "note": "Every item for your item screen.",
+   "items": [
+    {
+     "id": "oot.i.fairy-ocarina",
+     "name": "Fairy Ocarina",
+     "detail": "Saria's gift as you leave the forest.",
+     "group": "Ocarinas"
+    },
+    {
+     "id": "oot.i.ocarina-of-time",
+     "name": "Ocarina of Time",
+     "detail": "The royal family's ocarina.",
+     "group": "Ocarinas"
+    },
+    {
+     "id": "oot.i.fairy-slingshot",
+     "name": "Fairy Slingshot",
+     "detail": "",
+     "group": "Young Link"
+    },
+    {
+     "id": "oot.i.boomerang",
+     "name": "Boomerang",
+     "detail": "",
+     "group": "Young Link"
+    },
+    {
+     "id": "oot.i.bombs",
+     "name": "Bombs",
+     "detail": "",
+     "group": "Both"
+    },
+    {
+     "id": "oot.i.bombchus",
+     "name": "Bombchus",
+     "detail": "",
+     "group": "Both"
+    },
+    {
+     "id": "oot.i.fairy-bow",
+     "name": "Fairy Bow",
+     "detail": "",
+     "group": "Adult Link"
+    },
+    {
+     "id": "oot.i.hookshot",
+     "name": "Hookshot",
+     "detail": "",
+     "group": "Adult Link"
+    },
+    {
+     "id": "oot.i.longshot",
+     "name": "Longshot",
+     "detail": "Upgrade to the Hookshot.",
+     "group": "Adult Link"
+    },
+    {
+     "id": "oot.i.megaton-hammer",
+     "name": "Megaton Hammer",
+     "detail": "",
+     "group": "Adult Link"
+    },
+    {
+     "id": "oot.i.lens-of-truth",
+     "name": "Lens of Truth",
+     "detail": "Sees through illusions.",
+     "group": "Both"
+    },
+    {
+     "id": "oot.i.fire-arrows",
+     "name": "Fire Arrows",
+     "detail": "",
+     "group": "Arrows"
+    },
+    {
+     "id": "oot.i.ice-arrows",
+     "name": "Ice Arrows",
+     "detail": "",
+     "group": "Arrows"
+    },
+    {
+     "id": "oot.i.light-arrows",
+     "name": "Light Arrows",
+     "detail": "",
+     "group": "Arrows"
+    },
+    {
+     "id": "oot.i.din-s-fire",
+     "name": "Din's Fire",
+     "detail": "From a Great Fairy (on Death Mountain in the remake).",
+     "group": "Magic"
+    },
+    {
+     "id": "oot.i.farore-s-wind",
+     "name": "Farore's Wind",
+     "detail": "From a Great Fairy. Warps to a marked spot.",
+     "group": "Magic"
+    },
+    {
+     "id": "oot.i.nayru-s-love",
+     "name": "Nayru's Love",
+     "detail": "From a Great Fairy.",
+     "group": "Magic"
+    },
+    {
+     "id": "oot.i.echo-gem",
+     "name": "Echo Gem",
+     "detail": "New: replaces the Stone of Agony.",
+     "group": "Quest"
+    }
+   ]
+  },
+  {
+   "id": "gear",
+   "name": "Gear & upgrades",
+   "icon": "trophy",
+   "note": "Swords, shields, tunics, boots and every upgrade, including all five bottles.",
+   "items": [
+    {
+     "id": "oot.u.kokiri-sword",
+     "name": "Kokiri Sword",
+     "detail": "",
+     "group": "Swords"
+    },
+    {
+     "id": "oot.u.master-sword",
+     "name": "Master Sword",
+     "detail": "",
+     "group": "Swords"
+    },
+    {
+     "id": "oot.u.biggoron-s-sword",
+     "name": "Biggoron's Sword",
+     "detail": "End of the adult trading quest.",
+     "group": "Swords"
+    },
+    {
+     "id": "oot.u.deku-shield",
+     "name": "Deku Shield",
+     "detail": "",
+     "group": "Shields"
+    },
+    {
+     "id": "oot.u.hylian-shield",
+     "name": "Hylian Shield",
+     "detail": "",
+     "group": "Shields"
+    },
+    {
+     "id": "oot.u.mirror-shield",
+     "name": "Mirror Shield",
+     "detail": "",
+     "group": "Shields"
+    },
+    {
+     "id": "oot.u.goron-tunic",
+     "name": "Goron Tunic",
+     "detail": "",
+     "group": "Tunics & boots"
+    },
+    {
+     "id": "oot.u.zora-tunic",
+     "name": "Zora Tunic",
+     "detail": "",
+     "group": "Tunics & boots"
+    },
+    {
+     "id": "oot.u.iron-boots",
+     "name": "Iron Boots",
+     "detail": "",
+     "group": "Tunics & boots"
+    },
+    {
+     "id": "oot.u.hover-boots",
+     "name": "Hover Boots",
+     "detail": "",
+     "group": "Tunics & boots"
+    },
+    {
+     "id": "oot.u.goron-s-bracelet",
+     "name": "Goron's Bracelet",
+     "detail": "",
+     "group": "Strength"
+    },
+    {
+     "id": "oot.u.silver-gauntlets",
+     "name": "Silver Gauntlets",
+     "detail": "",
+     "group": "Strength"
+    },
+    {
+     "id": "oot.u.golden-gauntlets",
+     "name": "Golden Gauntlets",
+     "detail": "",
+     "group": "Strength"
+    },
+    {
+     "id": "oot.u.silver-scale",
+     "name": "Silver Scale",
+     "detail": "",
+     "group": "Diving"
+    },
+    {
+     "id": "oot.u.golden-scale",
+     "name": "Golden Scale",
+     "detail": "",
+     "group": "Diving"
+    },
+    {
+     "id": "oot.u.adult-s-wallet",
+     "name": "Adult's Wallet",
+     "detail": "Holds more Rupees (bigger in the remake).",
+     "group": "Wallets"
+    },
+    {
+     "id": "oot.u.giant-s-wallet",
+     "name": "Giant's Wallet",
+     "detail": "The largest wallet.",
+     "group": "Wallets"
+    },
+    {
+     "id": "oot.u.magic-meter",
+     "name": "Magic meter",
+     "detail": "",
+     "group": "Great Fairy gifts"
+    },
+    {
+     "id": "oot.u.doubled-magic",
+     "name": "Doubled Magic",
+     "detail": "",
+     "group": "Great Fairy gifts"
+    },
+    {
+     "id": "oot.u.improved-spin",
+     "name": "Improved Spin",
+     "detail": "Near Hyrule Castle in the remake.",
+     "group": "Great Fairy gifts"
+    },
+    {
+     "id": "oot.u.halved-damage",
+     "name": "Halved Damage",
+     "detail": "",
+     "group": "Great Fairy gifts"
+    },
+    {
+     "id": "oot.u.bottle-1",
+     "name": "Bottle 1",
+     "detail": "",
+     "group": "Bottles"
+    },
+    {
+     "id": "oot.u.bottle-2",
+     "name": "Bottle 2",
+     "detail": "",
+     "group": "Bottles"
+    },
+    {
+     "id": "oot.u.bottle-3",
+     "name": "Bottle 3",
+     "detail": "",
+     "group": "Bottles"
+    },
+    {
+     "id": "oot.u.bottle-4",
+     "name": "Bottle 4",
+     "detail": "The Big Poe bottle now takes 5 Big Poes.",
+     "group": "Bottles"
+    },
+    {
+     "id": "oot.u.bottle-5",
+     "name": "Bottle 5",
+     "detail": "New in the remake: from the Castle Town Potion Shop.",
+     "group": "Bottles"
+    }
+   ]
+  }
+ ]
+}
