@@ -21,21 +21,21 @@
 <main>
   <a href="./" class="muted">← lowkey</a>
   <h1>Privacy policy</h1>
-  <p class="muted">Last updated November 15, 2026</p>
+  <p class="muted">Last updated November 16, 2026</p>
 
   <div class="box">
-    <b>The short version:</b> lowkey runs AI on your own computer whenever it can. Your text stays on your device. We don't track you, sell anything about you, or show ads. If you use a Pro "cloud boost", the text goes to our server only long enough to write the answer, and it is never stored or used to train AI.
+    <b>The short version:</b> lowkey runs AI on your own computer whenever your browser can. When it can't (for example, most versions of Microsoft Edge today), lowkey uses its own cloud instead: your text goes to our server only long enough to write the answer, and it is never stored or used to train AI. We don't track you, sell anything about you, or show ads.
   </div>
 
   <h2>What lowkey does with your text</h2>
   <p><b>On-device actions (the default).</b> When you select text and pick an action, lowkey sends it to the AI model built into your browser (Gemini Nano in Chrome, Phi-4-mini in Microsoft Edge). This runs entirely on your computer. Nothing is sent to us.</p>
-  <p><b>Cloud boosts (Pro only).</b> If your computer can't run the built-in model, or you choose cloud boosts in settings, lowkey sends the selected text and your chosen action to our server, which runs on Cloudflare and uses Cloudflare Workers AI to write the answer. The text is processed in memory and sent straight back to you. We do not store it, log it, read it, or use it to train any model.</p>
+  <p><b>lowkey cloud.</b> If your browser can't run the built-in model on your computer (or you're on Pro and choose cloud boosts in settings), lowkey sends the selected text and your chosen action to our server, which runs on Cloudflare and uses Cloudflare Workers AI to write the answer. The text is processed in memory and sent straight back to you. We do not store it, log it, read it, or use it to train any model. lowkey tells you inside the extension whenever it is using the cloud. Free users get a limited number of cloud rewrites per day; Pro users get monthly cloud boosts.</p>
   <p><b>Page actions.</b> "tl;dr this page" and "ask this page" read the visible text of the current page only when you click them, and handle it the same way (on-device, or cloud boost for Pro users).</p>
 
   <h2>What we store</h2>
   <ul>
     <li><b>On your device</b> (browser extension storage): your settings, your saved prompts and writing-style note, daily usage counts for the free limit, your install date (for the 7-day trial), and simple stats like your streak. You can clear these by removing the extension.</li>
-    <li><b>On our server</b>, for Pro users only: an anonymous hash of your license key with a monthly count of cloud boosts used (to enforce the monthly limit). No text, no names, no email.</li>
+    <li><b>On our server</b>, only if you use lowkey cloud: usage counts (how many cloud rewrites today or this month) keyed by a one-way hash of either your license key (Pro) or a random install ID the extension creates (free), plus a hashed network address used only to stop abuse of the free daily limit. Counts expire with the day or month. No text, no names, no email.</li>
     <li><b>Teams waitlist:</b> if you join it, we store the email address and team size you enter, only to contact you about the Teams plan.</li>
   </ul>
 
