@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>lowkey · private AI for work</title>
+<meta name="description" content="Rewrite, fix, summarize and reply anywhere you type. AI that runs on your own computer, so your work stays yours.">
+<link rel="icon" href="icon.png">
+<style>
+  @font-face { font-family: G; src: url(sg700.woff2) format('woff2'); font-weight: 700; }
+  :root { --bg:#0e0d13; --card:#18161f; --line:#2c2838; --text:#f5f2ff; --muted:#9e97b8; --lime:#d4ff4f; --violet:#9d7cff; --pink:#ff7ac6; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.55 system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  main { max-width: 980px; margin: 0 auto; padding: 32px 20px 80px; }
+  h1, h2, h3, .g { font-family: G, system-ui; letter-spacing: -0.03em; }
+  nav { display: flex; align-items: center; gap: 10px; }
+  nav img { width: 34px; height: 34px; border-radius: 9px; }
+  nav b { font-family: G; font-size: 20px; }
+  .hero { padding: 64px 0 40px; }
+  .hero h1 { font-size: clamp(44px, 8vw, 84px); line-height: .98; margin: 0 0 18px; }
+  .hero h1 em { font-style: normal; color: var(--lime); }
+  .hero p { color: var(--muted); font-size: 20px; max-width: 600px; margin: 0 0 28px; }
+  .cta { display: inline-flex; gap: 10px; flex-wrap: wrap; }
+  .btn { display: inline-block; padding: 14px 22px; border-radius: 999px; font: 700 16px G, system-ui; text-decoration: none; }
+  .btn.lime { background: var(--lime); color: #111; }
+  .btn.ghost { border: 1px solid var(--line); color: var(--text); }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 36px 0; }
+  .chip { padding: 9px 14px; border-radius: 999px; background: var(--card); border: 1px solid var(--line); }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 22px; }
+  .card h3 { margin: 0 0 6px; font-size: 20px; }
+  .card p { margin: 0; color: var(--muted); font-size: 15px; }
+  section { margin-top: 72px; }
+  section > h2 { font-size: 38px; margin: 0 0 18px; }
+  .big { font-size: 22px; color: var(--muted); max-width: 720px; }
+  .price { font: 700 40px G; margin: 6px 0; }
+  .price span { font-size: 15px; color: var(--muted); }
+  .hot { border-color: var(--lime); }
+  ul { padding-left: 20px; color: var(--muted); font-size: 15px; }
+  .faq b { display: block; margin-top: 18px; }
+  .faq p { color: var(--muted); margin: 4px 0 0; }
+  footer { margin-top: 80px; color: var(--muted); font-size: 14px; display: flex; gap: 16px; flex-wrap: wrap; }
+  footer a { color: var(--muted); }
+  .lime { color: var(--lime); }
+  @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main>
+  <nav><img src="icon.png" alt=""><b>lowkey</b></nav>
+
+  <div class="hero">
+    <h1>AI that<br><em>doesn't snitch.</em></h1>
+    <p>Rewrite, fix, summarize and reply anywhere you type. lowkey runs AI on your own computer, so your work stays yours. Use AI at work, privately.</p>
+    <div class="cta">
+      <a class="btn lime" id="get-edge" href="#">get it for Microsoft Edge</a>
+      <a class="btn ghost" href="#pricing">see pricing</a>
+    </div>
+  </div>
+
+  <div class="chips">
+    <span class="chip">🩹 fix it</span><span class="chip">🫠 less robotic</span><span class="chip">🫶 say it nicer</span>
+    <span class="chip">💼 make it pro</span><span class="chip">✂️ shorter pls</span><span class="chip">📝 bullet it</span>
+    <span class="chip">⚡ tl;dr</span><span class="chip">🧠 explain it</span><span class="chip">💬 draft a reply</span><span class="chip">✨ tell it anything</span>
+  </div>
+
+  <div class="grid">
+    <div class="card"><h3>1 · select</h3><p>Highlight text anywhere: email, Slack, docs, tickets, LinkedIn, wherever.</p></div>
+    <div class="card"><h3>2 · <span class="lime">Alt</span> + <span class="lime">K</span></h3><p>Or right-click → lowkey ✦. Pick a vibe, or just tell it what you want.</p></div>
+    <div class="card"><h3>3 · swap it in</h3><p>One click puts the new version right where your text was. Done in seconds.</p></div>
+  </div>
+
+  <section>
+    <h2>🔒 private by default</h2>
+    <p class="big">Most AI writing tools send everything you type to their servers. lowkey uses the AI model that's built into your browser, so it runs on your computer and your words never leave it. No tracking, no ads, minimal permissions: it only touches a page when you ask it to.</p>
+  </section>
+
+  <section id="pricing">
+    <h2>pricing</h2>
+    <div class="grid">
+      <div class="card"><div class="g">free</div><div class="price">$0</div><ul><li>20 AI actions a day</li><li>on-device, private</li><li>every vibe</li><li>7-day Pro trial on install, no card</li></ul></div>
+      <div class="card hot"><div class="g">pro</div><div class="price">$4.99<span>/mo</span></div><p>or $44/yr · or $59 once</p><ul><li>unlimited on-device AI</li><li>800 cloud boosts a month (works on any computer)</li><li>your own writing voice</li><li>saved prompts</li></ul></div>
+      <div class="card"><div class="g">teams</div><div class="price">$4<span>/person/mo</span></div><ul><li>everything in Pro</li><li>shared team prompts</li><li>admin + privacy report for IT</li></ul><a class="btn ghost" href="teams.html">join the waitlist</a></div>
+    </div>
+  </section>
+
+  <section class="faq">
+    <h2>faq</h2>
+    <b>Does it really run on my computer?</b>
+    <p>Yes. lowkey uses the AI built into Microsoft Edge (Phi-4-mini) and Google Chrome (Gemini Nano). The first time, your browser downloads the model once in the background.</p>
+    <b>What if my computer can't run it?</b>
+    <p>Some older or smaller computers can't. Pro includes cloud boosts that work anywhere. Those are processed and sent right back, never stored or used for training.</p>
+    <b>Is it allowed at work?</b>
+    <p>Check your company's rules, but on-device AI means your text doesn't go to an outside AI service, which is usually the main concern. The Teams plan adds a privacy report you can hand to IT.</p>
+    <b>Chrome?</b>
+    <p>Coming to the Chrome Web Store soon.</p>
+  </section>
+
+  <footer><span>© 2026 Adaptation Apps</span><a href="privacy.html">privacy</a><a href="teams.html">teams</a></footer>
+</main>
+</body>
+</html>

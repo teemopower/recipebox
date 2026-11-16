@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>lowkey for teams</title>
+<link rel="icon" href="icon.png">
+<style>
+  @font-face { font-family: G; src: url(sg700.woff2) format('woff2'); font-weight: 700; }
+  body { margin: 0; background: #0e0d13; color: #f5f2ff; font: 17px/1.55 system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  main { max-width: 620px; margin: 0 auto; padding: 48px 20px 80px; }
+  h1 { font: 700 44px/1.05 G, system-ui; letter-spacing: -0.03em; margin: 12px 0; }
+  h1 em { font-style: normal; color: #d4ff4f; }
+  p, li { color: #9e97b8; }
+  a { color: #9d7cff; }
+  form { display: flex; flex-direction: column; gap: 10px; margin-top: 24px; background: #18161f; border: 1px solid #2c2838; border-radius: 20px; padding: 20px; }
+  input { background: #211e2b; border: 1px solid #2c2838; color: #f5f2ff; border-radius: 12px; padding: 12px; font: inherit; }
+  button { background: #d4ff4f; color: #111; border: 0; border-radius: 999px; padding: 13px; font: 700 16px G, system-ui; cursor: pointer; }
+  #msg { min-height: 24px; color: #d4ff4f; }
+</style>
+</head>
+<body>
+<main>
+  <a href="./">← lowkey</a>
+  <h1>your team already uses AI.<br><em>make it the safe kind.</em></h1>
+  <p>Most young workers use AI on the job, often without telling anyone. lowkey for Teams gives everyone private, on-device AI the company can approve.</p>
+  <ul>
+    <li>$4 per person per month (3-seat minimum)</li>
+    <li>shared prompts so everyone writes in the company voice</li>
+    <li>admin dashboard + a privacy report for IT</li>
+  </ul>
+  <form id="f">
+    <input id="email" type="email" required placeholder="work email">
+    <input id="seats" type="number" min="1" placeholder="how many people (rough guess)">
+    <button>join the Teams waitlist</button>
+    <div id="msg"></div>
+  </form>
+  <p style="font-size:14px">We only use your email to tell you when Teams launches. <a href="privacy.html">privacy</a></p>
+</main>
+<script>
+  const API = ''; // lowkey cloud server URL, set after deploy
+  document.getElementById('f').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const msg = document.getElementById('msg');
+    if (!API) { msg.textContent = 'Waitlist opens very soon. Check back in a day or two!'; return; }
+    try {
+      const r = await fetch(API + '/v1/teams', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: document.getElementById('email').value, seats: document.getElementById('seats').value }) });
+      const d = await r.json();
+      msg.textContent = d.ok ? "you're on the list 🫡" : (d.message || 'something went wrong');
+    } catch { msg.textContent = 'something went wrong, try again?'; }
+  });
+</script>
+</body>
+</html>

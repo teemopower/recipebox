@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>lowkey · privacy policy</title>
+<link rel="icon" href="icon.png">
+<style>
+  @font-face { font-family: G; src: url(sg700.woff2) format('woff2'); font-weight: 700; }
+  body { margin: 0; background: #0e0d13; color: #f5f2ff; font: 16px/1.6 system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+  h1, h2 { font-family: G, system-ui; letter-spacing: -0.02em; }
+  h1 { font-size: 36px; margin: 8px 0 4px; }
+  h2 { font-size: 20px; margin-top: 32px; color: #d4ff4f; }
+  a { color: #9d7cff; }
+  .muted { color: #9e97b8; }
+  .box { background: #18161f; border: 1px solid #2c2838; border-radius: 16px; padding: 16px 20px; }
+</style>
+</head>
+<body>
+<main>
+  <a href="./" class="muted">← lowkey</a>
+  <h1>Privacy policy</h1>
+  <p class="muted">Last updated November 15, 2026</p>
+
+  <div class="box">
+    <b>The short version:</b> lowkey runs AI on your own computer whenever it can. Your text stays on your device. We don't track you, sell anything about you, or show ads. If you use a Pro "cloud boost", the text goes to our server only long enough to write the answer, and it is never stored or used to train AI.
+  </div>
+
+  <h2>What lowkey does with your text</h2>
+  <p><b>On-device actions (the default).</b> When you select text and pick an action, lowkey sends it to the AI model built into your browser (Gemini Nano in Chrome, Phi-4-mini in Microsoft Edge). This runs entirely on your computer. Nothing is sent to us.</p>
+  <p><b>Cloud boosts (Pro only).</b> If your computer can't run the built-in model, or you choose cloud boosts in settings, lowkey sends the selected text and your chosen action to our server, which runs on Cloudflare and uses Cloudflare Workers AI to write the answer. The text is processed in memory and sent straight back to you. We do not store it, log it, read it, or use it to train any model.</p>
+  <p><b>Page actions.</b> "tl;dr this page" and "ask this page" read the visible text of the current page only when you click them, and handle it the same way (on-device, or cloud boost for Pro users).</p>
+
+  <h2>What we store</h2>
+  <ul>
+    <li><b>On your device</b> (browser extension storage): your settings, your saved prompts and writing-style note, daily usage counts for the free limit, your install date (for the 7-day trial), and simple stats like your streak. You can clear these by removing the extension.</li>
+    <li><b>On our server</b>, for Pro users only: an anonymous hash of your license key with a monthly count of cloud boosts used (to enforce the monthly limit). No text, no names, no email.</li>
+    <li><b>Teams waitlist:</b> if you join it, we store the email address and team size you enter, only to contact you about the Teams plan.</li>
+  </ul>
+
+  <h2>Payments</h2>
+  <p>Payments are handled by ExtensionPay and Stripe. We never see your card number. ExtensionPay tells the extension whether your plan is active. See <a href="https://extensionpay.com/privacy">ExtensionPay's privacy policy</a> and <a href="https://stripe.com/privacy">Stripe's privacy policy</a>.</p>
+
+  <h2>Permissions, explained</h2>
+  <ul>
+    <li><b>activeTab + scripting:</b> lowkey only reads or changes a page after you press the shortcut, use the right-click menu, or click a button in the side panel. It does not run on pages in the background.</li>
+    <li><b>contextMenus:</b> adds "lowkey ✦" to the right-click menu.</li>
+    <li><b>sidePanel:</b> the lowkey side panel.</li>
+    <li><b>storage:</b> saves your settings and counters on your device.</li>
+    <li><b>extensionpay.com:</b> lets the payment page confirm your purchase.</li>
+  </ul>
+
+  <h2>What we don't do</h2>
+  <ul>
+    <li>No analytics, tracking pixels or ads.</li>
+    <li>No selling or sharing of personal data.</li>
+    <li>No reading of your browsing history.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>lowkey is a work tool and isn't directed at children under 13.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, we'll update the date above and describe the change in the extension's release notes.</p>
+
+  <h2>Contact</h2>
+  <p>Questions? Use the support link on lowkey's Microsoft Edge Add-ons or Chrome Web Store page.</p>
+</main>
+</body>
+</html>
