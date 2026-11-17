@@ -1,0 +1,13 @@
+@font-face { font-family: "CWSerif"; src: url("serif-italic.ttf") format("truetype"); font-style: italic; }
+:root { --night:#0E0D12; --card:#211E2A; --paper:#F5F1E8; --dim:#9A94A8; --cliff:#FF3D8B; --hook:#FFE45C; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--night); color:var(--paper); font:17px/1.6 -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 56px 22px 80px; }
+h1 { font-family:"CWSerif", Georgia, serif; font-style: italic; font-weight: 400; font-size: 54px; line-height: 1; margin: 0 0 12px; }
+h1 span { color: var(--cliff); }
+h2 { font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: var(--dim); margin: 36px 0 8px; }
+.lede { color: var(--dim); font-size: 19px; }
+.card { background: var(--card); border-radius: 20px; padding: 18px 20px; margin: 12px 0; }
+a { color: var(--hook); }
+.tag { display:inline-block; font-size:12px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--cliff); background:rgba(255,61,139,.14); padding:4px 10px; border-radius:6px; }
+footer { margin-top: 48px; color: var(--dim); font-size: 14px; }
