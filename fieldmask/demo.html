@@ -1,0 +1,19 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Field Mask demo checkout</title>
+<style>body{font:16px system-ui;max-width:560px;margin:30px auto;padding:0 16px;background:#faf7f2;color:#222}
+label{display:block;margin:10px 0 4px;font-weight:600}input{width:100%;padding:10px;font-size:16px;border:1px solid #bbb;border-radius:8px;box-sizing:border-box}
+.row{display:flex;gap:10px}.row>div{flex:1}h1{font-size:26px}.box{background:#fff;border-radius:12px;padding:16px;margin:14px 0;box-shadow:0 1px 4px #0002}</style></head>
+<body>
+<h1>☕ Bean There Coffee · demo checkout</h1><p>Fake data for trying Field Mask. Turn on agent mode and the card, CVC and password fields blur.</p>
+<div class="box">
+<label for="em">Email</label><input id="em" type="email" value="sam.rivera@example.com">
+<label for="nm">Name on card</label><input id="nm" name="fullname" value="Sam Rivera">
+<label for="cc">Card number</label><input id="cc" autocomplete="cc-number" value="4242 4242 4242 4242">
+<div class="row"><div><label for="ex">Expiry</label><input id="ex" name="exp" placeholder="MM/YY" value="08/29"></div>
+<div><label for="cv">CVC</label><input id="cv" name="cvc" value="123"></div></div>
+<label for="pw">Create a password</label><input id="pw" type="password" value="hunter2hunter2">
+</div>
+<div class="box" id="notes"><b>Order notes</b><p id="loyalty">Loyalty member #88231 · gift card balance $24.10</p>
+<p id="txt">Saved card ending 4242 4242 4242 4242 and SSN 123-45-6789 on file.</p></div>
+<script>setTimeout(()=>{const i=document.createElement('input');i.id='late';i.setAttribute('autocomplete','cc-csc');i.value='999';document.querySelector('.box').append(i)},600)</script>
+</body></html>

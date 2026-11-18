@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gatelist</title>
+<style>
+:root{--bg:#0e0f0c;--ink:#f2f5ea;--acc:#c6ff3d;--acc2:#ff7a2f}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 ui-monospace, monospace;}
+main{max-width:720px;margin:0 auto;padding:48px 18px 80px}
+h1{font-size:46px;line-height:1;margin:0 0 10px;letter-spacing:-1.5px;text-shadow:4px 4px 0 var(--acc)}
+h2{font-size:20px;margin:30px 0 8px} .tag{font-weight:700;font-size:19px}
+.card{border:2px solid currentColor;border-radius:18px;padding:16px 18px;box-shadow:5px 5px 0 var(--acc)}
+.btn{display:inline-block;background:var(--acc);color:#111;font-weight:800;padding:12px 18px;border-radius:14px;border:2px solid #111;box-shadow:4px 4px 0 #111;text-decoration:none;margin:6px 8px 6px 0}
+.btn.alt{background:var(--acc2)} a{color:inherit} code{font-family:ui-monospace,monospace;font-size:14px}
+footer{opacity:.7;font-size:14px;margin-top:44px}
+</style></head><body><main>
+<h1>gatelist</h1><p class='tag'>decide where AI agents can act ⛩</p><p>A browser extension for IT admins. Pick the AI agents (Claude in Chrome, the ChatGPT extension, Copilot in Edge, Gemini auto browse), pick the sites, and Gatelist writes the Chrome and Edge policies: Windows .reg, JSON, macOS .mobileconfig or GPO/Intune values.</p>
+<p><a class="btn" href="https://microsoftedge.microsoft.com/addons/search/gatelist">get it for Microsoft Edge</a></p>
+<h2>how it works</h2><div class="card">Extension agents are limited with <code>ExtensionSettings</code> runtime_blocked_hosts / runtime_allowed_hosts. Copilot uses <code>BrowsingWithCopilotAllowList</code> / <code>BlockList</code>. Gemini auto browse uses <code>GeminiActOnWebSettings</code>. After deploying, check <code>chrome://policy</code> or <code>edge://policy</code>.</div>
+<h2>help</h2><div class="card">Email <a href="mailto:hangrygrogu@gmail.com">hangrygrogu@gmail.com</a>. Always test new policies on a pilot group first.</div><footer><a href='privacy.html'>privacy</a> · © 2026 Adaptation Apps</footer>
+</main></body></html>
