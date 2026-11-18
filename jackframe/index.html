@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jackframe · switchboard puzzle</title>
+<meta name="description" content="Jackframe is a switchboard puzzle game: patch the calls, beat par, don't let anyone hang up.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;900&family=DM+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#100B1F; --panel:#1C1533; --line:#3A2E5E; --text:#F7F2FF; --dim:#A79CC9; --lamp:#FFC53D; --hot:#FF5FA2; --cool:#5CF2C1; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--ink); color:var(--text); font:17px/1.55 "DM Sans", system-ui, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 18px 80px; }
+  h1 { font:900 52px/1 Unbounded, sans-serif; margin:0 0 10px; letter-spacing:-1px; text-shadow:5px 5px 0 var(--hot); }
+  h2 { font:700 20px/1.2 Unbounded, sans-serif; margin:36px 0 10px; }
+  .tag { color:var(--lamp); font-weight:600; font-size:19px; }
+  .card { background:var(--panel); border:2px solid var(--line); border-radius:20px; padding:18px 20px; box-shadow:5px 5px 0 #000; margin:14px 0; }
+  .btn { display:inline-block; background:var(--lamp); color:var(--ink); font:700 15px Unbounded, sans-serif; padding:14px 20px; border-radius:16px; border:2px solid #000; box-shadow:5px 5px 0 var(--hot); text-decoration:none; margin-top:14px; }
+  a { color:var(--cool); }
+  ul { padding-left:20px; } li { margin:6px 0; }
+  footer { color:var(--dim); font-size:14px; margin-top:48px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>jackframe</h1>
+  <p class="tag">patch the calls. beat par. don't let anyone hang up.</p>
+  <p>You're the night operator at a busy switchboard. Calls ring in, you've only got a few cords, and everybody has places to be. Patch the right calls at the right time so nobody hangs up, and hold callers as little as possible to earn three stars.</p>
+  <a class="btn" href="https://play.google.com/store/apps/details?id=com.adaptationapps.jackframe">get it on Google Play</a>
+
+  <h2>how it plays</h2>
+  <div class="card">
+    <ul>
+      <li>📞 tap a ringing call to plug it in. hit <b>next</b> to move the clock 15 minutes.</li>
+      <li>⏳ every caller has a patience meter. run it out and they hang up.</li>
+      <li>👑 VIPs can't wait, 🌍 long distance needs two cords, ↩️ callbacks ring when a call ends, 🌙 do-not-disturb lines stay quiet.</li>
+      <li>⭐ hold the total wait at par for three stars. a new daily board drops every day.</li>
+    </ul>
+  </div>
+
+  <h2>night pass</h2>
+  <div class="card">The first 20 shifts and every daily board are free. The one-time Night Pass unlocks all 50 shifts, unlimited hints and two extra board themes. No ads, no subscription. Bought it on another phone? Use <b>restore</b> in the pass screen with the same Google account.</div>
+
+  <h2>help</h2>
+  <div class="card">Stuck or found a bug? Email <a href="mailto:hangrygrogu@gmail.com">hangrygrogu@gmail.com</a> and say which shift you're on.</div>
+
+  <footer><a href="privacy.html">privacy</a> · © 2026 Adaptation Apps</footer>
+</main>
+</body>
+</html>
