@@ -2,11 +2,11 @@
   "id": "gta6",
   "title": "GTA VI",
   "subtitle": "Leonida checklist",
-  "version": 1,
-  "updated": "Nov 13, 2026",
+  "version": 2,
+  "updated": "Nov 19, 2026",
   "disclaimer": "Unofficial fan-made checklist. Not affiliated with, endorsed or sponsored by Rockstar Games or Take-Two Interactive. Grand Theft Auto and GTA are trademarks of Take-Two Interactive.",
   "colors": ["#FF4FA3", "#FF9F43"],
-  "news": "Launch pack: every region and side activity Rockstar has confirmed. Story missions, collectibles, vehicles and trophies are added here as players find them after launch on Nov 19. No app update needed.",
+  "news": "Launch-day update: story chapters, collectible goals, vehicle goals and the trophy list are in. More collectibles are added as players map them. No app update needed.",
   "categories": [
     {
       "id": "explore",
@@ -20,6 +20,7 @@
         {"id": "gta6.r.port-gellhorn", "name": "Visit Port Gellhorn", "detail": "A run-down old vacation coast with cheap motels.", "group": "Regions"},
         {"id": "gta6.r.ambrosia", "name": "Roll through Ambrosia", "detail": "Leonida's industrial and farming country.", "group": "Regions"},
         {"id": "gta6.r.kalaga", "name": "Explore Mount Kalaga National Park", "detail": "Wild parkland up on the northern border.", "group": "Regions"},
+        {"id": "gta6.r.all", "name": "Explore all of Leonida", "detail": "Uncover the whole map. This one counts toward a trophy.", "group": "Regions"},
         {"id": "gta6.p.ocean-beach", "name": "Walk Ocean Beach", "detail": "Vice City's beachfront strip.", "group": "Vice City"},
         {"id": "gta6.p.little-cuba", "name": "Eat your way through Little Cuba", "detail": "One of Vice City's named neighborhoods.", "group": "Vice City"},
         {"id": "gta6.p.flea-market", "name": "Browse the Tisha-Wocka flea market", "detail": "A named Vice City market.", "group": "Vice City"},
@@ -47,36 +48,78 @@
         {"id": "gta6.a.gym", "name": "Work out at a gym", "group": "Leisure"},
         {"id": "gta6.a.basketball", "name": "Shoot some hoops", "group": "Leisure"},
         {"id": "gta6.a.pool", "name": "Play a game of pool", "group": "Leisure"},
-        {"id": "gta6.a.minigolf", "name": "Finish a round of mini golf", "group": "Leisure"}
+        {"id": "gta6.a.minigolf", "name": "Finish a round of mini golf", "group": "Leisure"},
+        {"id": "gta6.a.arcade", "name": "Beat an arcade game", "group": "Leisure"},
+        {"id": "gta6.a.bowling", "name": "Go bowling", "group": "Leisure"}
       ]
     },
     {
       "id": "story",
       "name": "Story missions",
       "icon": "movie",
-      "note": "Filling in after launch on Nov 19. Spoiler-free names only. Add your own in the meantime.",
-      "items": []
+      "note": "Five chapters, about 93 story missions in total (early count from launch-week guides). Spoiler-free: chapters only, no mission names.",
+      "items": [
+        {"id": "gta6.s.ch1", "name": "Finish Chapter 1", "group": "Main story"},
+        {"id": "gta6.s.ch2", "name": "Finish Chapter 2", "group": "Main story"},
+        {"id": "gta6.s.ch3", "name": "Finish Chapter 3", "group": "Main story"},
+        {"id": "gta6.s.ch4", "name": "Finish Chapter 4", "group": "Main story"},
+        {"id": "gta6.s.final", "name": "Finish the final mission", "detail": "Roll the credits on the main story.", "group": "Main story"},
+        {"id": "gta6.s.strangers", "name": "Finish 8 stranger mission strands", "detail": "Side stories from the odd characters you meet around Leonida.", "group": "Side stories"}
+      ]
     },
     {
       "id": "collectibles",
       "name": "Collectibles",
       "icon": "star",
-      "note": "Filling in as players find them after launch. Add your own finds in the meantime.",
-      "items": []
+      "note": "Goals with confirmed counts. Full totals are added once players finish mapping them.",
+      "items": [
+        {"id": "gta6.c.cards-1", "name": "Complete a Collectible Card set", "group": "Cards"},
+        {"id": "gta6.c.cards-3", "name": "Complete 3 Collectible Card sets", "detail": "Counts toward a trophy.", "group": "Cards"},
+        {"id": "gta6.c.wainks-100", "name": "WAiNK at 100 locations", "detail": "Counts toward a trophy.", "group": "Spots"},
+        {"id": "gta6.c.meditate-18", "name": "Meditate at all 18 spots", "group": "Spots"},
+        {"id": "gta6.c.stunts-250", "name": "Pull off 250 stunts", "group": "Stunts"},
+        {"id": "gta6.c.challenges-50", "name": "Complete 50 challenges", "group": "Challenges"}
+      ]
     },
     {
       "id": "vehicles",
       "name": "Vehicle collection",
       "icon": "car",
-      "note": "Your garage checklist. Filling in after launch. Add cars as you get them.",
-      "items": []
+      "note": "Garage goals from the official trophy list. Add your own favorite cars too.",
+      "items": [
+        {"id": "gta6.v.discover-25", "name": "Discover 25 vehicles", "group": "Discover"},
+        {"id": "gta6.v.discover-50", "name": "Discover 50 vehicles", "group": "Discover"},
+        {"id": "gta6.v.discover-100", "name": "Discover 100 vehicles", "detail": "Counts toward a trophy.", "group": "Discover"},
+        {"id": "gta6.v.register-10", "name": "Register 10 vehicles in the Scooter Bros app", "group": "Garage"},
+        {"id": "gta6.v.garages-8", "name": "Buy all 8 garage properties", "group": "Garage"},
+        {"id": "gta6.v.showroom", "name": "Crash out of a vehicle showroom", "detail": "Through the window, not the door.", "group": "Just for fun"}
+      ]
     },
     {
       "id": "trophies",
       "name": "Trophies & achievements",
       "icon": "trophy",
-      "note": "Added once the official list is out.",
-      "items": []
+      "note": "55 trophies in total, including the Platinum. Written in our own words. A few with unclear conditions are left out for now; story, collectible and vehicle trophies live in their own sections above.",
+      "items": [
+        {"id": "gta6.t.activities-9", "name": "Try all 9 activity types once", "group": "Activities"},
+        {"id": "gta6.t.shooting-42", "name": "Gold medal on all 42 Shooting Range challenges", "group": "Activities"},
+        {"id": "gta6.t.drone-14", "name": "Win a drone race at all 14 locations", "group": "Activities"},
+        {"id": "gta6.t.races-20", "name": "Win 20 different races", "group": "Activities"},
+        {"id": "gta6.t.fishing-duel", "name": "Win a fishing challenge against a local", "group": "Activities"},
+        {"id": "gta6.t.hunt-unique", "name": "Hunt a unique animal for a hunting contact", "group": "Activities"},
+        {"id": "gta6.t.cocktail", "name": "Have a cocktail with a view on Ocean Beach", "group": "Activities"},
+        {"id": "gta6.t.wanted-4", "name": "Shake a 4-star wanted level together with your partner", "group": "Crime"},
+        {"id": "gta6.t.shops-3", "name": "Rob 3 shops in a row with your partner without losing the heat", "group": "Crime"},
+        {"id": "gta6.t.jewelry", "name": "Rob a jewelry store without being spotted", "group": "Crime"},
+        {"id": "gta6.t.vaults-5", "name": "Rob 5 bank vaults and get away", "group": "Crime"},
+        {"id": "gta6.t.armored", "name": "Rob an armored truck and get away", "group": "Crime"},
+        {"id": "gta6.t.gangs-9", "name": "Hit an illegal operation of each of the 9 gangs", "group": "Crime"},
+        {"id": "gta6.t.focus-5", "name": "Drop 5 enemies in one use of Combat Focus", "group": "Crime"},
+        {"id": "gta6.t.launder", "name": "Launder $250,000 in Marked Bills", "group": "Money"},
+        {"id": "gta6.t.spend", "name": "Spend $100,000 in shops", "group": "Money"},
+        {"id": "gta6.t.hundo", "name": "Reach 100% completion", "group": "The big ones"},
+        {"id": "gta6.t.platinum", "name": "Unlock the Platinum", "detail": "PlayStation only. On Xbox, unlock every achievement.", "group": "The big ones"}
+      ]
     }
   ]
 }
