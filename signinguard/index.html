@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign-in Guard</title><meta name="description" content="A free browser extension that explains what an app wants from your Google or Microsoft account before you click Allow, and warns about fake sign-in windows.">
+<style>
+:root{--ink:#0f1b2d;--sub:#43536b;--paper:#f4f7fb;--line:#e3e9f1;--green:#1f9d55;--amber:#d98e04;--red:#d93636;--blue:#0b63ce}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:40px 18px 80px}a{color:var(--blue)}
+.top{display:flex;gap:14px;align-items:center;margin-bottom:28px}.top img{width:54px;height:54px;border-radius:12px;background:#fff;box-shadow:0 0 0 1px var(--line)}
+.top b{font-size:20px}h1{font-size:44px;line-height:1.08;letter-spacing:-.02em;margin:0 0 14px}h2{font-size:22px;margin:34px 0 8px}
+.lead{font-size:20px;color:var(--sub);margin:0 0 22px}.btn{display:inline-block;background:var(--ink);color:#fff;font-weight:700;padding:12px 18px;border-radius:12px;text-decoration:none;margin:4px 8px 4px 0}
+.btn.alt{background:#fff;color:var(--ink);box-shadow:inset 0 0 0 2px var(--ink)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}
+.box{background:#fff;border-radius:14px;padding:16px 18px;box-shadow:0 0 0 1px var(--line)}.box h3{margin:0 0 4px;font-size:17px}.box p{margin:0;color:var(--sub);font-size:15px}
+.dot{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:7px}.g{background:var(--green)}.a{background:var(--amber)}.r{background:var(--red)}
+ul.lv{list-style:none;padding:0}ul.lv li{margin:6px 0}footer{color:#64748b;font-size:14px;margin-top:50px}
+@media(max-width:720px){.grid{grid-template-columns:1fr}h1{font-size:34px}}
+</style></head><body><main>
+<div class="top"><img src="logo.png" alt=""><b>Sign-in Guard</b></div>
+<h1>Know what an app wants before you click Allow.</h1>
+<p class="lead">When a site asks you to “Sign in with Google” or Microsoft, it can also ask to read your email, open your files or send mail as you. Scammers use this to take over accounts without ever needing your password. Sign-in Guard explains every request in plain words, right on the permission screen.</p>
+<a class="btn" href="https://microsoftedge.microsoft.com/addons/search/sign-in%20guard">Get it for Microsoft Edge</a>
+<a class="btn alt" href="demo.html">See a fake sign-in window demo</a>
+<ul class="lv">
+<li><span class="dot g"></span><b>Low risk:</b> the app only learns who you are.</li>
+<li><span class="dot a"></span><b>Check first:</b> it wants some of your data, like your calendar or contacts.</li>
+<li><span class="dot r"></span><b>High risk:</b> it wants your email, all your files, or control of your account.</li>
+</ul>
+<div class="grid">
+<div class="box"><h3>Plain-word verdicts</h3><p>Every permission becomes a sentence you can understand, riskiest first, with the site you’ll be sent back to.</p></div>
+<div class="box"><h3>Fake window warnings</h3><p>Some scam pages draw a fake sign-in box inside the page. Sign-in Guard spots common ones and tells you to leave.</p></div>
+<div class="box"><h3>Private by design</h3><p>Runs only in your browser. It never sees your password and sends nothing anywhere.</p></div>
+</div>
+<h2>Already clicked Allow somewhere?</h2>
+<p>Review and remove apps that can reach your account: <a href="https://myaccount.google.com/connections">Google Account</a> · <a href="https://account.live.com/consent/Manage">Microsoft account</a> · <a href="https://myapps.microsoft.com">work or school Microsoft account</a>.</p>
+<h2>The honest part</h2>
+<p>Sign-in Guard reads the permission list a site sends to Google or Microsoft. It can’t see what an app does with access afterwards, and its fake-window check catches common tricks, not every one. It’s a second opinion, not antivirus.</p>
+<footer>Sign-in Guard by Adaptation Apps · <a href="privacy.html">Privacy</a> · <a href="mailto:hangrygrogu@gmail.com">Contact</a><br>Not affiliated with Google or Microsoft. Google and Microsoft are trademarks of their owners.</footer>
+</main></body></html>

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign-in Guard · fake window demo</title>
+<style>body{margin:0;font:16px/1.5 system-ui,sans-serif;background:#1d2330;color:#eef2f8}main{max-width:760px;margin:0 auto;padding:40px 18px}
+a{color:#8cc4ff}button{font:inherit;font-weight:700;padding:11px 18px;border-radius:10px;border:0;background:#fff;color:#0f1b2d;cursor:pointer}
+.win{position:fixed;left:50%;top:110px;transform:translateX(-50%);width:440px;max-width:92vw;background:#fff;color:#222;border-radius:8px;box-shadow:0 20px 60px #000a}
+.tb{background:#dee1e6;padding:8px 10px;border-radius:8px 8px 0 0;font-size:12px;display:flex;justify-content:space-between}.url{background:#fff;border-radius:12px;padding:3px 10px;margin:6px 10px 0;font-size:13px;color:#333}
+.bar{background:#dee1e6;padding-bottom:8px}.f{padding:24px}.f input{display:block;width:100%;padding:10px;margin:10px 0;border:1px solid #ccc;border-radius:4px;box-sizing:border-box}.demo{background:#ffe9a8;color:#5a4300;padding:8px 10px;border-radius:6px;font-size:13px}</style></head>
+<body><main>
+<h1>Fake sign-in window demo</h1>
+<p>This page shows the “browser in the browser” trick scammers use: a sign-in box drawn inside the page, with a fake address bar. With Sign-in Guard installed, press the button and you’ll get a red warning.</p>
+<p><button id="go">Show the fake window</button> &nbsp; <a href="index.html">back to Sign-in Guard</a></p>
+<p>Safe to try: this demo has no real form. Nothing you type goes anywhere.</p>
+</main>
+<script>
+document.getElementById('go').onclick = function () {
+  if (document.querySelector('.win')) return;
+  var w = document.createElement('div'); w.className = 'win';
+  w.innerHTML = '<div class="bar"><div class="tb"><span>Sign in - Accounts</span><span>&#x2715;</span></div><div class="url">https://accounts.google.com/signin/v2/identifier</div></div>' +
+    '<div class="f"><div class="demo">DEMO ONLY. This window is fake on purpose.</div><b>Sign in</b><input type="email" placeholder="Email (demo, not sent)" autocomplete="off"><input type="password" placeholder="Password (demo, not sent)" autocomplete="off"></div>';
+  w.querySelectorAll('input').forEach(function (i) { i.addEventListener('keydown', function (e) { e.preventDefault(); }); });
+  document.body.appendChild(w);
+};
+</script></body></html>
