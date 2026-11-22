@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tuckmark · Privacy policy</title>
+<link rel="icon" href="icon.png">
+<style>
+  body { margin: 0; background: #fafaf7; color: #1e2430; font: 17px/1.65 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; border-top: 5px solid #e0a33a; }
+  main { max-width: 760px; margin: 0 auto; padding: 36px 22px 80px; }
+  h1 { font-size: 34px; letter-spacing: -.02em; margin: 0 0 4px; }
+  h2 { font-size: 21px; margin: 34px 0 8px; }
+  .muted { color: #6b7280; }
+  a { color: #9a6a12; }
+  ul { padding-left: 22px; }
+  .top { display: flex; align-items: center; gap: 10px; margin-bottom: 26px; text-decoration: none; color: inherit; font-weight: 700; }
+  .top img { width: 32px; height: 32px; border-radius: 8px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="top" href="./"><img src="icon.png" alt="">Tuckmark</a>
+  <h1>Privacy policy</h1>
+  <p class="muted">Last updated November 22, 2026</p>
+
+  <p>Tuckmark is a browser extension for keeping private bookmarks in an encrypted vault. It is built so that we never receive your links, titles, notes, tags, passphrases or browsing activity.</p>
+
+  <h2>What stays on your device</h2>
+  <ul>
+    <li>Your links, titles, notes and tags are encrypted with your passphrase (Argon2id key derivation, AES-256-GCM) and stored only in your browser's extension storage on this device.</li>
+    <li>Your settings (theme, auto-lock time, how links open, the No trace in history and screen-lock options), a count and the times of wrong passphrase attempts used for the break-in alert, and your licence key if you buy Pro.</li>
+    <li>Backups you export are encrypted files saved wherever you choose. We never see them.</li>
+  </ul>
+  <p>Tuckmark has no account, no analytics, no ads, no tracking and no servers of its own. It does not sync, and nothing is uploaded.</p>
+
+  <h2>The one network request</h2>
+  <p>If you buy Tuckmark Pro and enter a licence key, Tuckmark asks your permission to contact our payment provider, Polar (polar.sh), and then sends only the licence key, our public organization ID and a label naming your browser (for example "Tuckmark · Edge") to activate, check or remove the key. It sends nothing about your vault. Purchases happen on Polar's checkout page, and Polar handles your payment and email under <a href="https://polar.sh/legal/privacy">its own privacy policy</a>. We receive the email address and order details Polar shares with sellers, only to provide the licence and support.</p>
+  <p>The decoy list is filled from site lists built into the extension. It does not download anything.</p>
+
+  <h2>Permissions and why</h2>
+  <ul>
+    <li><b>Storage and unlimited storage:</b> to keep the encrypted vault and settings on your device.</li>
+    <li><b>Active tab:</b> to read the address and title of the page you're on, only when you open Tuckmark or press the save shortcut, so you can add it.</li>
+    <li><b>Idle:</b> to lock Tuckmark when your screen locks or the computer goes idle.</li>
+    <li><b>History (optional, asked only if you turn on No trace in history):</b> to remove the addresses you open from Tuckmark from your browser history. Tuckmark doesn't read or collect your history.</li>
+    <li><b>api.polar.sh (optional, asked only when you enter a licence key):</b> to check the licence key as described above.</li>
+  </ul>
+
+  <h2>Selling or sharing data</h2>
+  <p>We don't sell, rent or share your data, because we don't have it. We don't use it for advertising, credit decisions or anything unrelated to Tuckmark.</p>
+
+  <h2>Deleting your data</h2>
+  <p>Use Erase everything on this device in Tuckmark's settings, or remove the extension; your browser deletes its storage. To remove licence activations, use Deactivate on this browser in Settings or contact us.</p>
+
+  <h2>Children</h2>
+  <p>Tuckmark is not directed at children under 13.</p>
+
+  <h2>Changes and contact</h2>
+  <p>If this policy changes, we'll update this page and the date above. Questions: <a href="mailto:hangrygrogu@gmail.com">hangrygrogu@gmail.com</a></p>
+</main>
+</body>
+</html>

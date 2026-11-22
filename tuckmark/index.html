@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tuckmark · private bookmarks with a decoy passphrase</title>
+<meta name="description" content="An encrypted bookmark vault for Edge and Chrome. One passphrase opens your links; a decoy passphrase opens a harmless list. No account, nothing uploaded.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --ink:#1e2430; --ink2:#262d3b; --paper:#fafaf7; --amber:#e0a33a; --muted:#aab1c0; --line:#353d4d; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ink); color: var(--paper); font: 17px/1.6 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; }
+  a { color: var(--amber); }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 22px; }
+  header { border-top: 5px solid var(--amber); }
+  nav { display: flex; align-items: center; gap: 12px; padding: 22px 0; }
+  nav img { width: 36px; height: 36px; border-radius: 9px; }
+  nav b { font-size: 21px; letter-spacing: -.01em; }
+  nav .sp { flex: 1; }
+  nav a.small { color: var(--muted); text-decoration: none; font-size: 15px; margin-left: 18px; }
+  .hero { display: grid; grid-template-columns: 1.05fr 1fr; gap: 40px; align-items: center; padding: 40px 0 64px; }
+  .hero h1 { font-size: clamp(38px, 5.4vw, 60px); line-height: 1.04; letter-spacing: -.03em; margin: 0 0 18px; }
+  .hero h1 span { color: var(--amber); }
+  .hero p { color: var(--muted); font-size: 19px; margin: 0 0 26px; max-width: 520px; }
+  .btn { display: inline-block; padding: 13px 22px; border-radius: 12px; font-weight: 700; text-decoration: none; margin: 0 10px 10px 0; }
+  .btn.solid { background: var(--amber); color: var(--ink); }
+  .btn.line { border: 1px solid var(--line); color: var(--paper); }
+  .hero img.shot { width: 100%; border-radius: 16px; box-shadow: 0 24px 60px rgba(0,0,0,.45); }
+  .note { font-size: 14px; color: var(--muted); }
+  section { padding: 56px 0; border-top: 1px solid var(--line); }
+  h2 { font-size: 32px; letter-spacing: -.02em; margin: 0 0 22px; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; align-items: center; }
+  .two img { width: 100%; border-radius: 14px; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .tile { background: var(--ink2); border: 1px solid var(--line); border-radius: 16px; padding: 20px; }
+  .tile h3 { margin: 0 0 6px; font-size: 18px; }
+  .tile p { margin: 0; color: var(--muted); font-size: 15px; }
+  ol, ul { color: var(--muted); padding-left: 22px; }
+  li { margin: 6px 0; }
+  .price { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .price .tile b.n { display: block; font-size: 34px; margin: 4px 0 8px; }
+  .price .pro { border-color: var(--amber); }
+  kbd { background: var(--ink2); border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 6px; padding: 1px 7px; font: 14px ui-monospace, Consolas, monospace; color: var(--paper); }
+  footer { padding: 36px 0 60px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); }
+  @media (max-width: 820px) { .hero, .two, .grid, .price { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <nav><img src="icon.png" alt=""><b>Tuckmark</b><span class="sp"></span>
+    <a class="small" href="#how">How it works</a><a class="small" href="#help">Help</a><a class="small" href="privacy.html">Privacy</a></nav>
+  <div class="hero">
+    <div>
+      <h1>Private bookmarks with a <span>decoy passphrase</span>.</h1>
+      <p>Tuckmark keeps the links you'd rather keep to yourself in an encrypted vault in Microsoft Edge. If someone makes you open it, a second passphrase shows a harmless list instead.</p>
+      <a class="btn solid" href="https://microsoftedge.microsoft.com/addons/search/tuckmark">Get it for Edge</a>
+      <a class="btn line" href="#how">See how it works</a>
+      <p class="note">Free for up to 20 links per list. No account. Nothing leaves your device.</p>
+    </div>
+    <img class="shot" src="shot-private.png" alt="Tuckmark showing a list of private links">
+  </div>
+</div></header>
+
+<main class="wrap">
+  <section id="how">
+    <h2>Two passphrases, two lists, one vault</h2>
+    <div class="two">
+      <div>
+        <ol>
+          <li>Create your vault with a passphrase only you know. Save links from the toolbar with <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd>.</li>
+          <li>Right after setup, Tuckmark offers a decoy passphrase. Pick some everyday topics and it fills that list with well-known sites and realistic dates.</li>
+          <li>Each passphrase opens its own list. Both lists look and work the same, and the vault takes the same space on disk whether or not a second list exists, so the screen and the storage don't reveal whether a second list exists.</li>
+        </ol>
+        <p class="note">Skipped it at setup? Open Settings and press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd>.</p>
+      </div>
+      <img src="shot-decoy.png" alt="The decoy list showing everyday sites">
+    </div>
+  </section>
+
+  <section>
+    <h2>Built for the moment someone else is at your screen</h2>
+    <div class="grid">
+      <div class="tile"><h3>Panic lock</h3><p><kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> locks the vault and closes the tabs you opened from it.</p></div>
+      <div class="tile"><h3>No trace in history</h3><p>Optionally removes the links you open from Tuckmark from your browser history.</p></div>
+      <div class="tile"><h3>Break-in alert</h3><p>After you unlock, Tuckmark tells you if someone typed a wrong passphrase while you were away.</p></div>
+      <div class="tile"><h3>Locks itself</h3><p>When you close the popup, after the idle time you choose, when the screen locks and when the browser restarts.</p></div>
+      <div class="tile"><h3>Real encryption</h3><p>Argon2id and AES-256-GCM. While locked, nothing readable is stored: no titles, no addresses, no counts.</p></div>
+      <div class="tile"><h3>Backups you control</h3><p>Export an encrypted backup file and restore it on another computer.</p></div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <div class="price">
+      <div class="tile"><h3>Free</h3><b class="n">$0</b><ul><li>Up to 20 links in each list</li><li>Decoy passphrase, panic lock, break-in alert, auto-lock</li><li>Encrypted backups</li></ul></div>
+      <div class="tile pro"><h3>Tuckmark Pro</h3><b class="n">$4.99 <span class="note">once</span></b><ul><li>Unlimited links</li><li>Tags and notes</li><li>Import a browser bookmarks file</li><li>Readable export</li></ul>
+        <p class="note">Buy inside Tuckmark (Settings, Tuckmark Pro). You get a licence key by email; it works on up to 3 browsers. Checking the key sends only the key to our payment provider, Polar, never your links.</p></div>
+    </div>
+  </section>
+
+  <section id="help">
+    <h2>Help</h2>
+    <h3>Shortcuts</h3>
+    <ul>
+      <li><kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> opens Tuckmark</li>
+      <li><kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> saves the page you're on</li>
+      <li><kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd> locks Tuckmark and closes tabs opened from it</li>
+      <li>On the Settings page, <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd> sets up a decoy passphrase</li>
+    </ul>
+    <p class="note">You can change these in your browser's extension shortcuts page (edge://extensions/shortcuts or chrome://extensions/shortcuts).</p>
+    <h3>What Tuckmark can't do</h3>
+    <ul>
+      <li>There is no recovery. If you forget your passphrase, your links are gone. Keep an encrypted backup.</li>
+      <li>Opening a link creates normal browser history unless you use a private window or turn on No trace in history. Even then, pages you click to afterwards are recorded, and your network or employer may still see visits.</li>
+      <li>Copied links stay on the clipboard until you copy something else.</li>
+      <li>Anyone watching your screen, an administrator, or malware can see what's shown.</li>
+      <li>It protects what's on screen, in its storage and in backups. It can't defeat a forensic examination of your computer, and JavaScript can't guarantee memory is wiped after locking.</li>
+      <li>If your browser saves your passphrase, anyone who can open your password manager can open Tuckmark.</li>
+    </ul>
+    <p class="note">If you're in danger, consider contacting local support services.</p>
+    <h3>Contact</h3>
+    <p class="note">Questions or a lost licence key: <a href="mailto:hangrygrogu@gmail.com">hangrygrogu@gmail.com</a></p>
+  </section>
+</main>
+<footer><div class="wrap">Tuckmark · <a href="privacy.html">Privacy policy</a></div></footer>
+</body>
+</html>
