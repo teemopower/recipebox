@@ -1,169 +1,95 @@
 {
- "id": "cvbc",
- "title": "Castlevania: Belmont's Curse",
- "subtitle": "100% completion checklist",
- "version": 1,
- "updated": "Nov 13, 2026",
- "disclaimer": "Unofficial fan-made checklist. Not affiliated with, endorsed or sponsored by KONAMI. Castlevania is a trademark of KONAMI.",
- "colors": [
-  "#B3123A",
-  "#6E3BA8"
- ],
- "news": "New: a 100% checklist for Castlevania: Belmont's Curse. Every area, all 16 bosses, both endings and every collection.",
- "categories": [
-  {
-   "id": "areas",
-   "name": "Explore every area",
-   "icon": "map",
-   "note": "Each area shows its own completion percentage in the game. Get them all to 100%.",
-   "items": [
+  "id": "cvbc",
+  "title": "Castlevania: Belmont's Curse",
+  "subtitle": "100% completion checklist",
+  "version": 2,
+  "updated": "Nov 23, 2026",
+  "disclaimer": "Unofficial fan-made checklist. Not affiliated with, endorsed or sponsored by KONAMI. Castlevania is a trademark of KONAMI.",
+  "colors": ["#B3123A", "#6E3BA8"],
+  "news": "Big update: exact totals for relics, clues, mirrors, heart fragments and stat books, plus trophy goals.",
+  "categories": [
     {
-     "id": "cvbc.a.streets-of-paris-100",
-     "name": "Streets of Paris: 100%",
-     "detail": "Reveal the whole map and grab everything here."
+      "id": "areas",
+      "name": "Explore every area",
+      "icon": "map",
+      "note": "Each area shows its own completion percentage in the game. 1,765 completion parts across all 9 areas.",
+      "items": [
+        {"id": "cvbc.a.streets-of-paris-100", "name": "Streets of Paris: 100%", "detail": "319 completion parts: rooms, items, doors and more."},
+        {"id": "cvbc.a.holy-innocents-cemetery-100", "name": "Holy Innocents' Cemetery: 100%", "detail": "176 completion parts: rooms, items, doors and more."},
+        {"id": "cvbc.a.catacombs-of-paris-100", "name": "Catacombs of Paris: 100%", "detail": "211 completion parts: rooms, items, doors and more."},
+        {"id": "cvbc.a.main-hall-100", "name": "Main Hall: 100%", "detail": "267 completion parts: rooms, items, doors and more."},
+        {"id": "cvbc.a.library-100", "name": "Library: 100%", "detail": "139 completion parts: rooms, items, doors and more."},
+        {"id": "cvbc.a.clock-tower-100", "name": "Clock Tower: 100%", "detail": "236 completion parts: rooms, items, doors and more."},
+        {"id": "cvbc.a.notre-dame-100", "name": "Notre-Dame: 100%", "detail": "235 completion parts: rooms, items, doors and more."},
+        {"id": "cvbc.a.hall-of-mirrors-100", "name": "Hall of Mirrors: 100%", "detail": "158 completion parts: rooms, items, doors and more."},
+        {"id": "cvbc.a.master-s-quarters-100", "name": "Master's Quarters: 100%", "detail": "24 completion parts: rooms, items, doors and more."}
+      ]
     },
     {
-     "id": "cvbc.a.holy-innocents-cemetery-100",
-     "name": "Holy Innocents' Cemetery: 100%",
-     "detail": "Reveal the whole map and grab everything here."
+      "id": "bosses",
+      "name": "Bosses",
+      "icon": "trophy",
+      "note": "16 bosses stand in Rose's way.",
+      "items": [
+        {"id": "cvbc.b.bosses-defeated-4-16", "name": "Bosses defeated 4/16", "detail": "Keep hunting. Some bosses are optional."},
+        {"id": "cvbc.b.bosses-defeated-8-16", "name": "Bosses defeated 8/16", "detail": "Keep hunting. Some bosses are optional."},
+        {"id": "cvbc.b.bosses-defeated-12-16", "name": "Bosses defeated 12/16", "detail": "Keep hunting. Some bosses are optional."},
+        {"id": "cvbc.b.bosses-defeated-16-16", "name": "Bosses defeated 16/16", "detail": "All 16 found."}
+      ]
     },
     {
-     "id": "cvbc.a.catacombs-of-paris-100",
-     "name": "Catacombs of Paris: 100%",
-     "detail": "Reveal the whole map and grab everything here."
+      "id": "collect",
+      "name": "Collections",
+      "icon": "list",
+      "note": "The collections that count toward 100%.",
+      "items": [
+        {"id": "cvbc.c.every-weapon", "name": "Every weapon", "detail": "All 28 weapons.", "group": "Gear"},
+        {"id": "cvbc.c.weapon-families", "name": "A weapon from each of the 7 families", "group": "Gear"},
+        {"id": "cvbc.c.legendary", "name": "Get a Legendary weapon", "group": "Gear"},
+        {"id": "cvbc.c.every-relic", "name": "All 40 Relics", "detail": "Check every chest, breakable wall and arena.", "group": "Gear"},
+        {"id": "cvbc.c.all-stat-upgrades", "name": "All stat upgrades", "detail": "48 heart fragments and 28 stat books in all.", "group": "Upgrades"},
+        {"id": "cvbc.c.brave-24", "name": "All 24 Brave heart fragments", "detail": "Every 4 raise max HP.", "group": "Upgrades"},
+        {"id": "cvbc.c.wise-24", "name": "All 24 Wise heart fragments", "detail": "Every 4 raise max MP.", "group": "Upgrades"},
+        {"id": "cvbc.c.atk-14", "name": "All 14 ATK UP books", "group": "Upgrades"},
+        {"id": "cvbc.c.def-14", "name": "All 14 DEF UP books", "group": "Upgrades"},
+        {"id": "cvbc.c.every-mirror-of-life", "name": "All 34 Mirrors of Life", "detail": "Activating them all earns a trophy.", "group": "Upgrades"},
+        {"id": "cvbc.c.every-clue", "name": "All 40 clues", "detail": "Finding every clue earns a trophy.", "group": "Secrets"},
+        {"id": "cvbc.c.every-tarot-card-complete", "name": "Every Tarot Card complete", "detail": "15 cards to collect, plus the one you start with.", "group": "Arcana"},
+        {"id": "cvbc.c.every-arcana-levelled", "name": "Every Arcana levelled", "detail": "All 42 Gifts across the 15 collected Arcana.", "group": "Arcana"},
+        {"id": "cvbc.c.movement-5", "name": "All 5 movement skills", "group": "Abilities"}
+      ]
     },
     {
-     "id": "cvbc.a.main-hall-100",
-     "name": "Main Hall: 100%",
-     "detail": "Reveal the whole map and grab everything here."
+      "id": "extras",
+      "name": "Secrets & trophy goals",
+      "icon": "sports",
+      "note": "30 trophies on PlayStation (29 achievements elsewhere). Turn Custom Mode off: it can block some of them.",
+      "items": [
+        {"id": "cvbc.x.xp-statues", "name": "Break all 147 XP statues", "group": "Exploration"},
+        {"id": "cvbc.x.doors-70", "name": "Open all 70 background doors", "group": "Exploration"},
+        {"id": "cvbc.x.rooms", "name": "Reveal every map room", "detail": "More than 1,300 rooms.", "group": "Exploration"},
+        {"id": "cvbc.x.wharves", "name": "Find every Ferryman's Wharf", "group": "Exploration"},
+        {"id": "cvbc.x.coffins-5", "name": "Survive all 5 Haunted Coffin encounters", "detail": "All in the cemetery.", "group": "Exploration"},
+        {"id": "cvbc.x.virtues-4", "name": "Ring all 4 virtue bells in Notre-Dame", "detail": "Each needs its matching spell equipped.", "group": "Exploration"},
+        {"id": "cvbc.x.roof-riddle", "name": "Solve the hidden-roof riddle in the Master's Quarters", "group": "Secrets"},
+        {"id": "cvbc.x.candles-666", "name": "Destroy 666 candles", "detail": "1,538 in the whole castle.", "group": "Trophy goals"},
+        {"id": "cvbc.x.distance", "name": "Travel 19.86 km in total", "group": "Trophy goals"},
+        {"id": "cvbc.x.holy-cross", "name": "Finish a regular enemy with Holy Cross while holding a whip", "group": "Trophy goals"},
+        {"id": "cvbc.x.speedrun", "name": "Beat the game in under 4 hours", "detail": "Needs its own run. Check the play time on the System tab.", "group": "Trophy goals"},
+        {"id": "cvbc.x.platinum", "name": "Unlock every trophy", "detail": "Or all 29 achievements on Xbox and Steam.", "group": "Trophy goals"}
+      ]
     },
     {
-     "id": "cvbc.a.library-100",
-     "name": "Library: 100%",
-     "detail": "Reveal the whole map and grab everything here."
-    },
-    {
-     "id": "cvbc.a.clock-tower-100",
-     "name": "Clock Tower: 100%",
-     "detail": "Reveal the whole map and grab everything here."
-    },
-    {
-     "id": "cvbc.a.notre-dame-100",
-     "name": "Notre-Dame: 100%",
-     "detail": "Reveal the whole map and grab everything here."
-    },
-    {
-     "id": "cvbc.a.hall-of-mirrors-100",
-     "name": "Hall of Mirrors: 100%",
-     "detail": "Reveal the whole map and grab everything here."
-    },
-    {
-     "id": "cvbc.a.master-s-quarters-100",
-     "name": "Master's Quarters: 100%",
-     "detail": "Reveal the whole map and grab everything here."
+      "id": "endings",
+      "name": "Endings",
+      "icon": "star",
+      "note": "See all three endings.",
+      "items": [
+        {"id": "cvbc.e.bad-ending", "name": "Bad ending", "detail": "There are three endings in all."},
+        {"id": "cvbc.e.normal-ending", "name": "Normal ending", "detail": "About 12 hours for most players."},
+        {"id": "cvbc.e.true-ending", "name": "True ending", "detail": "Needed for 100%, and for the last area to count."},
+        {"id": "cvbc.e.100-game-completion", "name": "100% game completion", "detail": "The Progress percentage on the System tab reads 100%."}
+      ]
     }
-   ]
-  },
-  {
-   "id": "bosses",
-   "name": "Bosses",
-   "icon": "trophy",
-   "note": "16 bosses stand in Rose's way.",
-   "items": [
-    {
-     "id": "cvbc.b.bosses-defeated-4-16",
-     "name": "Bosses defeated 4/16",
-     "detail": "Keep hunting. Some bosses are optional."
-    },
-    {
-     "id": "cvbc.b.bosses-defeated-8-16",
-     "name": "Bosses defeated 8/16",
-     "detail": "Keep hunting. Some bosses are optional."
-    },
-    {
-     "id": "cvbc.b.bosses-defeated-12-16",
-     "name": "Bosses defeated 12/16",
-     "detail": "Keep hunting. Some bosses are optional."
-    },
-    {
-     "id": "cvbc.b.bosses-defeated-16-16",
-     "name": "Bosses defeated 16/16",
-     "detail": "All 16 found."
-    }
-   ]
-  },
-  {
-   "id": "collect",
-   "name": "Collections",
-   "icon": "list",
-   "note": "The collections that count toward 100%.",
-   "items": [
-    {
-     "id": "cvbc.c.every-weapon",
-     "name": "Every weapon",
-     "detail": "All 28 weapons.",
-     "group": "Gear"
-    },
-    {
-     "id": "cvbc.c.every-relic",
-     "name": "Every Relic",
-     "detail": "Check every chest, breakable wall and arena.",
-     "group": "Gear"
-    },
-    {
-     "id": "cvbc.c.all-stat-upgrades",
-     "name": "All stat upgrades",
-     "detail": "Heart fragments and every other stat boost.",
-     "group": "Upgrades"
-    },
-    {
-     "id": "cvbc.c.every-mirror-of-life",
-     "name": "Every Mirror of Life",
-     "detail": "",
-     "group": "Upgrades"
-    },
-    {
-     "id": "cvbc.c.every-clue",
-     "name": "Every clue",
-     "detail": "",
-     "group": "Secrets"
-    },
-    {
-     "id": "cvbc.c.every-tarot-card-complete",
-     "name": "Every Tarot Card complete",
-     "detail": "",
-     "group": "Arcana"
-    },
-    {
-     "id": "cvbc.c.every-arcana-levelled",
-     "name": "Every Arcana levelled",
-     "detail": "Finish each Arcana's Works of Mercy.",
-     "group": "Arcana"
-    }
-   ]
-  },
-  {
-   "id": "endings",
-   "name": "Endings",
-   "icon": "star",
-   "note": "See both endings.",
-   "items": [
-    {
-     "id": "cvbc.e.normal-ending",
-     "name": "Normal ending",
-     "detail": "About 12 hours for most players."
-    },
-    {
-     "id": "cvbc.e.true-ending",
-     "name": "True ending",
-     "detail": "Needed for 100%, and for the last area to count."
-    },
-    {
-     "id": "cvbc.e.100-game-completion",
-     "name": "100% game completion",
-     "detail": "The Progress percentage on the System tab reads 100%."
-    }
-   ]
-  }
- ]
+  ]
 }
