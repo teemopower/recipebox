@@ -2,62 +2,79 @@
   "id": "geday",
   "title": "Gears of War: E-Day",
   "subtitle": "Campaign 100% checklist",
-  "version": 2,
-  "updated": "Nov 23, 2026",
+  "version": 3,
+  "updated": "Nov 24, 2026",
   "disclaimer": "Unofficial fan-made checklist. Not affiliated with, endorsed or sponsored by Microsoft, Xbox Game Studios or The Coalition. Gears of War is a trademark of Microsoft.",
   "colors": ["#C0392B", "#5D6D7E"],
-  "news": "Act 2 (38) and Act 5 (12) collectible counts are in, plus tips for the tricky ones.",
+  "news": "Full achievement roadmap added: Horde Siege, Versus and combat feat goals.",
   "categories": [
-    {
-      "id": "story",
-      "name": "Campaign",
-      "icon": "map",
-      "note": "A Prologue, five Acts (26 chapters) and an Epilogue.",
-      "items": [
-        {"id": "geday.s.prologue", "name": "Prologue", "detail": ""},
-        {"id": "geday.s.act-1", "name": "Act 1", "detail": "Four chapters."},
-        {"id": "geday.s.act-2", "name": "Act 2", "detail": "Five chapters. Where the bigger, semi-open areas begin."},
-        {"id": "geday.s.act-3", "name": "Act 3", "detail": "Six chapters."},
-        {"id": "geday.s.act-4", "name": "Act 4", "detail": "Six chapters, the longest act."},
-        {"id": "geday.s.act-5", "name": "Act 5", "detail": "Five chapters. The finale."},
-        {"id": "geday.s.epilogue", "name": "Epilogue", "detail": ""},
-        {"id": "geday.s.beat-the-campaign-on-insane", "name": "Beat the campaign on Insane", "detail": "For the hardest difficulty achievement."}
-      ]
-    },
-    {
-      "id": "collectibles",
-      "name": "Collectibles",
-      "icon": "list",
-      "note": "140 collectibles in all (COG Tags included), tracked in the War Journal by act and chapter: 13, 38, 36, 41 and 12. Some can be missed, so explore before moving on.",
-      "items": [
-        {"id": "geday.c.act-1-collectibles", "name": "Act 1 collectibles", "detail": "All 13."},
-        {"id": "geday.c.act-2-collectibles", "name": "Act 2 collectibles", "detail": "All 38. Some only appear during certain objectives, so grab them as you go."},
-        {"id": "geday.c.act-3-collectibles", "name": "Act 3 collectibles", "detail": "All 36. One Act 3 letter is picked up at the very start of Act 4."},
-        {"id": "geday.c.act-4-collectibles", "name": "Act 4 collectibles", "detail": "All 41, the most of any act. Check every pickup before the first train stop moves on."},
-        {"id": "geday.c.act-5-collectibles", "name": "Act 5 collectibles", "detail": "All 12. The last few are handed to you by story events."},
-        {"id": "geday.c.all-140-collectibles", "name": "All 140 collectibles", "detail": "Unlocks the collectibles achievement. Any difficulty counts."}
-      ]
-    },
-    {
-      "id": "extras",
-      "name": "Hard Cases & side goals",
-      "icon": "star",
-      "note": "Side content in the bigger, more open chapters.",
-      "items": [
-        {"id": "geday.x.every-hard-case", "name": "Every Hard Case", "detail": "Open them all, act by act."},
-        {"id": "geday.x.every-secondary-objective", "name": "Every Secondary Objective", "detail": ""},
-        {"id": "geday.x.every-supply-cache", "name": "Every Supply Cache", "detail": ""}
-      ]
-    },
-    {
-      "id": "goals",
-      "name": "Big goals",
-      "icon": "trophy",
-      "note": "Xbox lists 54 achievements worth 1,000 Gamerscore.",
-      "items": [
-        {"id": "geday.g.finish-the-campaign-in-co-op", "name": "Finish the campaign in co-op", "detail": ""},
-        {"id": "geday.g.1-000-gamerscore", "name": "1,000 Gamerscore", "detail": "Every achievement, including Horde and Versus."}
-      ]
-    }
+    {"id": "story", "name": "Campaign", "icon": "map", "note": "A Prologue, five Acts (26 chapters) and an Epilogue.", "items": [
+      {"id": "geday.s.boot-camp", "name": "Finish Boot Camp", "detail": "The tutorial opener. It has its own achievement."},
+      {"id": "geday.s.prologue", "name": "Prologue", "detail": ""},
+      {"id": "geday.s.act-1", "name": "Act 1", "detail": "Four chapters."},
+      {"id": "geday.s.act-2", "name": "Act 2", "detail": "Five chapters. Where the bigger, semi-open areas begin."},
+      {"id": "geday.s.act-3", "name": "Act 3", "detail": "Six chapters."},
+      {"id": "geday.s.act-4", "name": "Act 4", "detail": "Six chapters, the longest act."},
+      {"id": "geday.s.act-5", "name": "Act 5", "detail": "Five chapters. The finale."},
+      {"id": "geday.s.epilogue", "name": "Epilogue", "detail": ""},
+      {"id": "geday.s.beat-the-campaign-on-insane", "name": "Beat the campaign on Insane", "detail": "For the hardest difficulty achievement."}
+    ]},
+    {"id": "collectibles", "name": "Collectibles", "icon": "list", "note": "140 collectibles in all (COG Tags included), tracked in the War Journal by act and chapter: 13, 38, 36, 41 and 12. Some can be missed, so explore before moving on.", "items": [
+      {"id": "geday.c.act-1-collectibles", "name": "Act 1 collectibles", "detail": "All 13."},
+      {"id": "geday.c.act-2-collectibles", "name": "Act 2 collectibles", "detail": "All 38. Some only appear during certain objectives, so grab them as you go."},
+      {"id": "geday.c.act-3-collectibles", "name": "Act 3 collectibles", "detail": "All 36. One Act 3 letter is picked up at the very start of Act 4."},
+      {"id": "geday.c.act-4-collectibles", "name": "Act 4 collectibles", "detail": "All 41, the most of any act. Check every pickup before the first train stop moves on."},
+      {"id": "geday.c.act-5-collectibles", "name": "Act 5 collectibles", "detail": "All 12. The last few are handed to you by story events."},
+      {"id": "geday.c.all-140-collectibles", "name": "All 140 collectibles", "detail": "Unlocks the collectibles achievement. Any difficulty counts."}
+    ]},
+    {"id": "extras", "name": "Hard Cases & side goals", "icon": "star", "note": "Side content in the bigger, more open chapters.", "items": [
+      {"id": "geday.x.every-hard-case", "name": "Every Hard Case", "detail": "Discover them all for the Hard Case achievement. Guides give no total yet."},
+      {"id": "geday.x.every-secondary-objective", "name": "Every Secondary Objective", "detail": "Clear every campaign side objective. Any difficulty counts."},
+      {"id": "geday.x.every-supply-cache", "name": "Every Supply Cache", "detail": "Unlock every Supply Cache item in the campaign."}
+    ]},
+    {"id": "feats", "name": "Combat feats", "icon": "star", "note": "Enemy and weapon feats. Campaign or Horde both count.", "items": [
+      {"id": "geday.f.chainsaw", "name": "Chainsaw a Locust", "detail": ""},
+      {"id": "geday.f.boomer", "name": "Carve up a Boomer", "detail": ""},
+      {"id": "geday.f.ticker", "name": "Turn a Ticker against its owners", "detail": ""},
+      {"id": "geday.f.bilefrog", "name": "Make a Bilefrog blow up", "detail": ""},
+      {"id": "geday.f.grubs", "name": "Hit two Grubs with one Gut-Puncher shot", "detail": ""},
+      {"id": "geday.f.wretch", "name": "Get even with an Armored Wretch that stunned you", "detail": ""},
+      {"id": "geday.f.struggle", "name": "Save a teammate stuck wrestling a Locust", "detail": "Needs a second player."}
+    ]},
+    {"id": "horde", "name": "Horde Siege", "icon": "sports", "note": "The co-op wave mode holds about a third of the achievements. Grind goals add up across matches.", "items": [
+      {"id": "geday.h.missions-50", "name": "Survive 50 Horde missions", "detail": "Infantry difficulty or higher."},
+      {"id": "geday.h.secondary-100", "name": "Finish 100 Horde secondary objectives", "detail": ""},
+      {"id": "geday.h.invasions-25", "name": "Clear 25 Invasion Events", "detail": "Any difficulty."},
+      {"id": "geday.h.allfather", "name": "Extract on Allfather with the whole squad alive", "detail": "The top difficulty. Bring a steady team."},
+      {"id": "geday.h.revives-100", "name": "Revive teammates 100 times", "detail": ""},
+      {"id": "geday.h.stim-250", "name": "Revive 250 downed squadmates with the Stim Vaporizer", "detail": ""},
+      {"id": "geday.h.strangers-20", "name": "Revive 20 players from other squads", "detail": ""},
+      {"id": "geday.h.squad-save", "name": "Save your whole squad while you are close to death", "detail": ""},
+      {"id": "geday.h.sonic-50", "name": "Execute 50 enemies stunned by the Sonic Disruptor", "detail": ""},
+      {"id": "geday.h.turret-10", "name": "Kill 10 enemies in a row with one detached turret", "detail": ""},
+      {"id": "geday.h.injector", "name": "Keep Adrenaline going for 30 seconds with the Injector", "detail": ""},
+      {"id": "geday.h.pulse-1000", "name": "Tag 1,000 enemies with the Pulse Drone", "detail": ""},
+      {"id": "geday.h.perk-cache", "name": "Get the top reward from a Perk Cache", "detail": ""},
+      {"id": "geday.h.energy-150k", "name": "Spend 150,000 Energy at the Supply Cache", "detail": ""},
+      {"id": "geday.h.mods", "name": "Unlock every weapon mod", "detail": ""},
+      {"id": "geday.h.raven", "name": "Take a close look under a Raven", "detail": "A secret one. Look around the dropship."},
+      {"id": "geday.h.kills-50k", "name": "Kill 50,000 enemies", "detail": "Any difficulty. The longest grind."},
+      {"id": "geday.h.level-100", "name": "Reach player level 100 and Re-Up", "detail": "Re-Up is the prestige reset."},
+      {"id": "geday.h.final-reup", "name": "Re-Up for the last time", "detail": ""},
+      {"id": "geday.h.classes", "name": "Max out Assault, Breacher, Marksman and Medic", "detail": ""}
+    ]},
+    {"id": "versus", "name": "Versus", "icon": "trophy", "note": "Four achievements need online PvP.", "items": [
+      {"id": "geday.v.demolition", "name": "Let a planted Demolition bomb go off", "detail": ""},
+      {"id": "geday.v.conquest", "name": "Win a Conquest match without the other team scoring", "detail": ""},
+      {"id": "geday.v.battleship", "name": "Cause a workplace accident on the Battleship map", "detail": "A secret one. Look for an environmental hazard."},
+      {"id": "geday.v.kills-25k", "name": "Rack up 25,000 Versus kills", "detail": ""}
+    ]},
+    {"id": "goals", "name": "Big goals", "icon": "trophy", "note": "55 achievements worth 1,000 Gamerscore (per guides). None reported missable.", "items": [
+      {"id": "geday.g.finish-the-campaign-in-co-op", "name": "Finish the campaign in co-op", "detail": ""},
+      {"id": "geday.g.campaign", "name": "Finish the campaign on any difficulty", "detail": ""},
+      {"id": "geday.g.insane-full", "name": "Insane run with every side mission and hidden item", "detail": "The big campaign capstone."},
+      {"id": "geday.g.dead-serious", "name": "The full grind capstone", "detail": "100% campaign on Insane, 25,000 Versus kills, max player level and all four classes maxed."},
+      {"id": "geday.g.1-000-gamerscore", "name": "1,000 Gamerscore", "detail": "Every achievement, including Horde and Versus."}
+    ]}
   ]
 }

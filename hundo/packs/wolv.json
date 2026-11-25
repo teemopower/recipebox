@@ -2,105 +2,75 @@
   "id": "wolv",
   "title": "Marvel's Wolverine",
   "subtitle": "PS5 100% checklist",
-  "version": 2,
-  "updated": "Nov 23, 2026",
+  "version": 3,
+  "updated": "Nov 24, 2026",
   "disclaimer": "Unofficial fan-made checklist. Not affiliated with, endorsed or sponsored by Marvel, Insomniac Games or Sony Interactive Entertainment. Marvel's Wolverine is a trademark of its respective owners.",
   "colors": ["#F5C518", "#2B6CB0"],
-  "news": "New trophy goals, combat feats, fun extras and the secret 15th Nightmare Trial.",
+  "news": "Suit and claw totals added: 32 suits (27 base game) and 26 claw sets.",
   "categories": [
-    {
-      "id": "story",
-      "name": "Story",
-      "icon": "map",
-      "note": "Logan's trip, region by region, across 30 missions. Spoiler-free. Mission replay lets you go back for anything you missed.",
-      "items": [
-        {"id": "wolv.s.finish-the-canada-chapter", "name": "Finish the Canada chapter", "detail": "Logan's opening stretch in the Canadian wilds."},
-        {"id": "wolv.s.first-trip-to-madripoor", "name": "First trip to Madripoor", "detail": "The island city, first visit."},
-        {"id": "wolv.s.japan", "name": "Japan", "detail": "The story heads to Japan."},
-        {"id": "wolv.s.back-to-madripoor", "name": "Back to Madripoor", "detail": "Your second visit to the island."},
-        {"id": "wolv.s.roll-the-credits", "name": "Roll the credits", "detail": "Finish the main story."}
-      ]
-    },
-    {
-      "id": "crates",
-      "name": "Material Crates",
-      "icon": "list",
-      "note": "68 crates in all. Equip the Crate Finder adaptation to spot them through walls.",
-      "items": [
-        {"id": "wolv.c.material-crates-10-68", "name": "Material Crates 10/68", "detail": "Keep going: crates feed your upgrades."},
-        {"id": "wolv.c.material-crates-20-68", "name": "Material Crates 20/68", "detail": "Keep going: crates feed your upgrades."},
-        {"id": "wolv.c.material-crates-30-68", "name": "Material Crates 30/68", "detail": "Keep going: crates feed your upgrades."},
-        {"id": "wolv.c.material-crates-40-68", "name": "Material Crates 40/68", "detail": "Keep going: crates feed your upgrades."},
-        {"id": "wolv.c.material-crates-50-68", "name": "Material Crates 50/68", "detail": "Keep going: crates feed your upgrades."},
-        {"id": "wolv.c.material-crates-60-68", "name": "Material Crates 60/68", "detail": "Keep going: crates feed your upgrades."},
-        {"id": "wolv.c.material-crates-68-68", "name": "Material Crates 68/68", "detail": "All 68 found."}
-      ]
-    },
-    {
-      "id": "whisky",
-      "name": "Whisky Bottles",
-      "icon": "star",
-      "note": "20 bottles. Finding all of them unlocks a suit.",
-      "items": [
-        {"id": "wolv.w.whisky-bottles-5-20", "name": "Whisky Bottles 5/20", "detail": "Each bottle also builds your Adaptation progress."},
-        {"id": "wolv.w.whisky-bottles-10-20", "name": "Whisky Bottles 10/20", "detail": "Each bottle also builds your Adaptation progress."},
-        {"id": "wolv.w.whisky-bottles-15-20", "name": "Whisky Bottles 15/20", "detail": "Each bottle also builds your Adaptation progress."},
-        {"id": "wolv.w.whisky-bottles-20-20", "name": "Whisky Bottles 20/20", "detail": "All 20 found."}
-      ]
-    },
-    {
-      "id": "doors",
-      "name": "Nightmare Doors",
-      "icon": "trophy",
-      "note": "14 Nightmare Doors, each one a trial.",
-      "items": [
-        {"id": "wolv.n.nightmare-doors-2-14", "name": "Nightmare Doors 2/14", "detail": "Clear the trial behind each door."},
-        {"id": "wolv.n.nightmare-doors-4-14", "name": "Nightmare Doors 4/14", "detail": "Clear the trial behind each door."},
-        {"id": "wolv.n.nightmare-doors-6-14", "name": "Nightmare Doors 6/14", "detail": "Clear the trial behind each door."},
-        {"id": "wolv.n.nightmare-doors-8-14", "name": "Nightmare Doors 8/14", "detail": "Clear the trial behind each door."},
-        {"id": "wolv.n.nightmare-doors-10-14", "name": "Nightmare Doors 10/14", "detail": "Clear the trial behind each door."},
-        {"id": "wolv.n.nightmare-doors-12-14", "name": "Nightmare Doors 12/14", "detail": "Clear the trial behind each door."},
-        {"id": "wolv.n.nightmare-doors-14-14", "name": "Nightmare Doors 14/14", "detail": "All 14 found."}
-      ]
-    },
-    {
-      "id": "feats",
-      "name": "Combat feats & extras",
-      "icon": "star",
-      "note": "Trophy goals in our own words. The mission ones can be replayed if you miss them.",
-      "items": [
-        {"id": "wolv.f.parry-500", "name": "Land 500 parries", "group": "Combat"},
-        {"id": "wolv.f.xp-caches-100", "name": "Smash 100 XP Caches", "group": "Combat"},
-        {"id": "wolv.f.helix-100", "name": "100 kills with Helix Claws", "detail": "Unlocks late in the story.", "group": "Combat"},
-        {"id": "wolv.f.tornado-75", "name": "75 kills with Tornado Spin", "detail": "The final hit has to be the kill.", "group": "Combat"},
-        {"id": "wolv.f.blind-10", "name": "10 stealth kills on blinded enemies", "detail": "Unlocks late in the story.", "group": "Combat"},
-        {"id": "wolv.f.hazard", "name": "Impale an enemy on something in the environment", "group": "Combat"},
-        {"id": "wolv.f.molten", "name": "Kick a Reaver into molten metal", "group": "Combat"},
-        {"id": "wolv.f.plane-3", "name": "Throw 3 enemies out of a plane", "group": "In missions"},
-        {"id": "wolv.f.saturn", "name": "Drop a giant planet model on an enemy", "group": "In missions"},
-        {"id": "wolv.f.stalls", "name": "Wreck every vendor stall during a boss fight", "group": "In missions"},
-        {"id": "wolv.f.claw", "name": "Free the plushies from the arcade claw machines", "group": "Just for fun"},
-        {"id": "wolv.f.toilet", "name": "Find the fancy toilet in a Tokyo bar", "group": "Just for fun"},
-        {"id": "wolv.f.diary", "name": "Read the diary hidden in a Canada mission", "group": "Just for fun"}
-      ]
-    },
-    {
-      "id": "goals",
-      "name": "Completion goals",
-      "icon": "sports",
-      "note": "The big milestones for a full file.",
-      "items": [
-        {"id": "wolv.g.all-102-collectibles", "name": "All 102 collectibles", "detail": "68 crates, 20 bottles and 14 Nightmare Doors."},
-        {"id": "wolv.g.adaptation-level-10", "name": "Adaptation Level 10", "detail": "Max out Logan's adaptations."},
-        {"id": "wolv.g.hit-rage-tier-3", "name": "Hit Rage Tier 3", "detail": "Fill the rage meter all the way."},
-        {"id": "wolv.g.level-36", "name": "Reach player level 36", "detail": "Finishing the story gets you close; replay missions for the rest."},
-        {"id": "wolv.g.secret-trial", "name": "Clear the secret 15th Nightmare Trial", "detail": "Bronze or better on all 14 trials opens it after the story."},
-        {"id": "wolv.g.adamantium", "name": "Earn an Adamantium rating in a Nightmare Trial", "detail": "Any one trial is enough."},
-        {"id": "wolv.g.new-game-plus", "name": "Start New Game+", "detail": "Unlocks after the story."},
-        {"id": "wolv.g.unlock-every-standard-suit", "name": "Unlock every standard suit", "detail": "Craft 20 standard suits. Deluxe Edition suits don't count."},
-        {"id": "wolv.g.unlock-the-whisky-reward-suit", "name": "Unlock the whisky reward suit", "detail": "Your prize for all 20 bottles."},
-        {"id": "wolv.g.every-trophy", "name": "Every trophy", "detail": "42 trophies, none missable. Difficulty doesn't matter."}
-      ]
-    }
+    {"id": "story", "name": "Story", "icon": "map", "note": "Logan's trip, region by region, across 30 missions. Spoiler-free. Mission replay lets you go back for anything you missed.", "items": [
+      {"id": "wolv.s.finish-the-canada-chapter", "name": "Finish the Canada chapter", "detail": "Logan's opening stretch in the Canadian wilds."},
+      {"id": "wolv.s.first-trip-to-madripoor", "name": "First trip to Madripoor", "detail": "The island city, first visit."},
+      {"id": "wolv.s.japan", "name": "Japan", "detail": "The story heads to Japan."},
+      {"id": "wolv.s.back-to-madripoor", "name": "Back to Madripoor", "detail": "Your second visit to the island."},
+      {"id": "wolv.s.roll-the-credits", "name": "Roll the credits", "detail": "Finish the main story."}
+    ]},
+    {"id": "crates", "name": "Material Crates", "icon": "list", "note": "68 crates in all. Equip the Crate Finder adaptation to spot them through walls.", "items": [
+      {"id": "wolv.c.material-crates-10-68", "name": "Material Crates 10/68", "detail": "Keep going: crates feed your upgrades."},
+      {"id": "wolv.c.material-crates-20-68", "name": "Material Crates 20/68", "detail": "Keep going: crates feed your upgrades."},
+      {"id": "wolv.c.material-crates-30-68", "name": "Material Crates 30/68", "detail": "Keep going: crates feed your upgrades."},
+      {"id": "wolv.c.material-crates-40-68", "name": "Material Crates 40/68", "detail": "Keep going: crates feed your upgrades."},
+      {"id": "wolv.c.material-crates-50-68", "name": "Material Crates 50/68", "detail": "Keep going: crates feed your upgrades."},
+      {"id": "wolv.c.material-crates-60-68", "name": "Material Crates 60/68", "detail": "Keep going: crates feed your upgrades."},
+      {"id": "wolv.c.material-crates-68-68", "name": "Material Crates 68/68", "detail": "All 68 found."}
+    ]},
+    {"id": "whisky", "name": "Whisky Bottles", "icon": "star", "note": "20 bottles. Finding all of them unlocks a suit.", "items": [
+      {"id": "wolv.w.whisky-bottles-5-20", "name": "Whisky Bottles 5/20", "detail": "Each bottle also builds your Adaptation progress."},
+      {"id": "wolv.w.whisky-bottles-10-20", "name": "Whisky Bottles 10/20", "detail": "Each bottle also builds your Adaptation progress."},
+      {"id": "wolv.w.whisky-bottles-15-20", "name": "Whisky Bottles 15/20", "detail": "Each bottle also builds your Adaptation progress."},
+      {"id": "wolv.w.whisky-bottles-20-20", "name": "Whisky Bottles 20/20", "detail": "All 20 found."}
+    ]},
+    {"id": "doors", "name": "Nightmare Doors", "icon": "trophy", "note": "14 Nightmare Doors, each one a trial.", "items": [
+      {"id": "wolv.n.nightmare-doors-2-14", "name": "Nightmare Doors 2/14", "detail": "Clear the trial behind each door."},
+      {"id": "wolv.n.nightmare-doors-4-14", "name": "Nightmare Doors 4/14", "detail": "Clear the trial behind each door."},
+      {"id": "wolv.n.nightmare-doors-6-14", "name": "Nightmare Doors 6/14", "detail": "Clear the trial behind each door."},
+      {"id": "wolv.n.nightmare-doors-8-14", "name": "Nightmare Doors 8/14", "detail": "Clear the trial behind each door."},
+      {"id": "wolv.n.nightmare-doors-10-14", "name": "Nightmare Doors 10/14", "detail": "Clear the trial behind each door."},
+      {"id": "wolv.n.nightmare-doors-12-14", "name": "Nightmare Doors 12/14", "detail": "Clear the trial behind each door."},
+      {"id": "wolv.n.nightmare-doors-14-14", "name": "Nightmare Doors 14/14", "detail": "All 14 found."}
+    ]},
+    {"id": "feats", "name": "Combat feats & extras", "icon": "star", "note": "Trophy goals in our own words. The mission ones can be replayed if you miss them.", "items": [
+      {"id": "wolv.f.parry-500", "name": "Land 500 parries", "group": "Combat"},
+      {"id": "wolv.f.xp-caches-100", "name": "Smash 100 XP Caches", "group": "Combat"},
+      {"id": "wolv.f.helix-100", "name": "100 kills with Helix Claws", "detail": "Unlocks late in the story.", "group": "Combat"},
+      {"id": "wolv.f.tornado-75", "name": "75 kills with Tornado Spin", "detail": "The final hit has to be the kill.", "group": "Combat"},
+      {"id": "wolv.f.blind-10", "name": "10 stealth kills on blinded enemies", "detail": "Unlocks late in the story.", "group": "Combat"},
+      {"id": "wolv.f.hazard", "name": "Impale an enemy on something in the environment", "group": "Combat"},
+      {"id": "wolv.f.molten", "name": "Kick a Reaver into molten metal", "group": "Combat"},
+      {"id": "wolv.f.plane-3", "name": "Throw 3 enemies out of a plane", "group": "In missions"},
+      {"id": "wolv.f.saturn", "name": "Drop a giant planet model on an enemy", "group": "In missions"},
+      {"id": "wolv.f.stalls", "name": "Wreck every vendor stall during a boss fight", "group": "In missions"},
+      {"id": "wolv.f.claw", "name": "Free the plushies from the arcade claw machines", "group": "Just for fun"},
+      {"id": "wolv.f.toilet", "name": "Find the fancy toilet in a Tokyo bar", "group": "Just for fun"},
+      {"id": "wolv.f.diary", "name": "Read the diary hidden in a Canada mission", "group": "Just for fun"}
+    ]},
+    {"id": "goals", "name": "Completion goals", "icon": "sports", "note": "The big milestones for a full file.", "items": [
+      {"id": "wolv.g.all-102-collectibles", "name": "All 102 collectibles", "detail": "68 crates, 20 bottles and 14 Nightmare Doors."},
+      {"id": "wolv.g.adaptation-level-10", "name": "Adaptation Level 10", "detail": "Max out Logan's adaptations."},
+      {"id": "wolv.g.hit-rage-tier-3", "name": "Hit Rage Tier 3", "detail": "Fill the rage meter all the way."},
+      {"id": "wolv.g.level-36", "name": "Reach player level 36", "detail": "Finishing the story gets you close; replay missions for the rest."},
+      {"id": "wolv.g.secret-trial", "name": "Clear the secret 15th Nightmare Trial", "detail": "Bronze or better on all 14 trials opens it after the story."},
+      {"id": "wolv.g.adamantium", "name": "Earn an Adamantium rating in a Nightmare Trial", "detail": "Any one trial is enough."},
+      {"id": "wolv.g.new-game-plus", "name": "Start New Game+", "detail": "Unlocks after the story."},
+      {"id": "wolv.g.unlock-every-standard-suit", "name": "Unlock every standard suit", "detail": "Craft 20 standard suits for the trophy. Deluxe Edition suits don't count. Some guides count 17 craftable."},
+      {"id": "wolv.g.unlock-the-whisky-reward-suit", "name": "Unlock the whisky reward suit", "detail": "Your prize for all 20 bottles."},
+      {"id": "wolv.g.suits-27", "name": "Own all 27 base-game suits", "detail": "32 with the 5 Digital Deluxe suits. Crafting needs about 3,500 materials in all, and each crafted suit raises max health."},
+      {"id": "wolv.g.gauntlet-gold-suit", "name": "Earn the Gold-rank Nightmare Gauntlet suit", "detail": "Comes with its own claws."},
+      {"id": "wolv.g.gauntlet-adamantium-suit", "name": "Earn the Adamantium-rank Nightmare Gauntlet suit", "detail": "The toughest suit unlock. Comes with its own claws."},
+      {"id": "wolv.g.door-claws-3", "name": "Win the 3 Nightmare Door claw sets", "detail": "Silver rank or better on single gauntlets."},
+      {"id": "wolv.g.claws-26", "name": "Collect all 26 claw sets", "detail": "23 come with suits, 3 from Nightmare Doors."},
+      {"id": "wolv.g.completion-suit", "name": "Unlock the end-game suit", "detail": "Guides tie it to finishing the story or 100% completion."},
+      {"id": "wolv.g.every-trophy", "name": "Every trophy", "detail": "42 trophies, none missable. Difficulty doesn't matter."}
+    ]}
   ]
 }
