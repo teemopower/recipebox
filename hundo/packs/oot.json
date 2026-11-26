@@ -2,11 +2,11 @@
   "id": "oot",
   "title": "Ocarina of Time",
   "subtitle": "Switch 2 remake checklist",
-  "version": 3,
-  "updated": "Nov 24, 2026",
+  "version": 4,
+  "updated": "Nov 25, 2026",
   "disclaimer": "Unofficial fan-made checklist. Not affiliated with, endorsed or sponsored by Nintendo. The Legend of Zelda and Ocarina of Time are trademarks of Nintendo.",
   "colors": ["#2FBF71", "#E8B923"],
-  "news": "New remake side content: the potion seller's bug quest and Hall of Fallen Foes rematches.",
+  "news": "Every Gold Skulltula reward is now listed, from 10 to 100 tokens.",
   "categories": [
     {"id": "dungeons", "name": "Dungeons", "icon": "map", "note": "Clear every dungeon, from the Great Deku Tree to the final castle.", "items": [
       {"id": "oot.d.inside-the-deku-tree", "name": "Inside the Deku Tree", "detail": "Young Link's first dungeon, in Kokiri Forest.", "group": "Young Link"},
@@ -67,13 +67,13 @@
       {"id": "oot.h.heart-pieces-32-36", "name": "Heart Pieces 32/36", "detail": "Every 4 pieces add a heart. That's heart 8 of 9 from pieces.", "group": "Pieces of Heart"},
       {"id": "oot.h.heart-pieces-36-36", "name": "Heart Pieces 36/36", "detail": "Every 4 pieces add a heart. That's heart 9 of 9 from pieces.", "group": "Pieces of Heart"}
     ]},
-    {"id": "skulltulas", "name": "Gold Skulltulas", "icon": "sports", "note": "100 tokens in all. Turn them in at the House of Skulltula in Kakariko for each reward.", "items": [
-      {"id": "oot.g.10-tokens", "name": "10 tokens", "detail": "Reward: the Adult's Wallet.", "group": "Token rewards"},
+    {"id": "skulltulas", "name": "Gold Skulltulas", "icon": "sports", "note": "100 tokens in all. Talk to the family in the House of Skulltula in Kakariko after each milestone to claim it; tokens keep counting after each claim. Some guides still call the 20-token reward by its old name, the Stone of Agony.", "items": [
+      {"id": "oot.g.10-tokens", "name": "10 tokens", "detail": "Reward: the Adult's Wallet (holds 500 Rupees).", "group": "Token rewards"},
       {"id": "oot.g.20-tokens", "name": "20 tokens", "detail": "Reward: the Echo Gem, new in the remake. It helps you find nearby Gold Skulltulas.", "group": "Token rewards"},
-      {"id": "oot.g.30-tokens", "name": "30 tokens", "detail": "Reward: the Giant's Wallet.", "group": "Token rewards"},
-      {"id": "oot.g.40-tokens", "name": "40 tokens", "detail": "Claim the 40-token reward.", "group": "Token rewards"},
-      {"id": "oot.g.50-tokens", "name": "50 tokens", "detail": "Claim the 50-token reward.", "group": "Token rewards"},
-      {"id": "oot.g.100-tokens", "name": "100 tokens", "detail": "All 100 found. Claim the final reward.", "group": "Token rewards"}
+      {"id": "oot.g.30-tokens", "name": "30 tokens", "detail": "Reward: the Giant's Wallet (holds 1,000 Rupees).", "group": "Token rewards"},
+      {"id": "oot.g.40-tokens", "name": "40 tokens", "detail": "Reward: a pack of 10 Bombchus.", "group": "Token rewards"},
+      {"id": "oot.g.50-tokens", "name": "50 tokens", "detail": "Reward: a Piece of Heart (one of the 36).", "group": "Token rewards"},
+      {"id": "oot.g.100-tokens", "name": "100 tokens", "detail": "All 100 found. Reward: 200 Rupees, and you can come back for it again and again.", "group": "Token rewards"}
     ]},
     {"id": "quests", "name": "Side quests & mini games", "icon": "star", "note": "The side content a full file picks up along the way.", "items": [
       {"id": "oot.q.epona", "name": "Win Epona from Lon Lon Ranch", "group": "Side quests"},
@@ -132,8 +132,8 @@
       {"id": "oot.u.golden-gauntlets", "name": "Golden Gauntlets", "detail": "", "group": "Strength"},
       {"id": "oot.u.silver-scale", "name": "Silver Scale", "detail": "", "group": "Diving"},
       {"id": "oot.u.golden-scale", "name": "Golden Scale", "detail": "", "group": "Diving"},
-      {"id": "oot.u.adult-s-wallet", "name": "Adult's Wallet", "detail": "Holds more Rupees (bigger in the remake).", "group": "Wallets"},
-      {"id": "oot.u.giant-s-wallet", "name": "Giant's Wallet", "detail": "The largest wallet.", "group": "Wallets"},
+      {"id": "oot.u.adult-s-wallet", "name": "Adult's Wallet", "detail": "Holds 500 Rupees. Your 10-token Gold Skulltula reward.", "group": "Wallets"},
+      {"id": "oot.u.giant-s-wallet", "name": "Giant's Wallet", "detail": "Holds 1,000 Rupees. Your 30-token Gold Skulltula reward.", "group": "Wallets"},
       {"id": "oot.u.magic-meter", "name": "Magic meter", "detail": "", "group": "Great Fairy gifts"},
       {"id": "oot.u.doubled-magic", "name": "Doubled Magic", "detail": "", "group": "Great Fairy gifts"},
       {"id": "oot.u.improved-spin", "name": "Improved Spin", "detail": "Near Hyrule Castle in the remake.", "group": "Great Fairy gifts"},

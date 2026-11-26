@@ -2,17 +2,17 @@
   "id": "cvbc",
   "title": "Castlevania: Belmont's Curse",
   "subtitle": "100% completion checklist",
-  "version": 3,
-  "updated": "Nov 24, 2026",
+  "version": 4,
+  "updated": "Nov 25, 2026",
   "disclaimer": "Unofficial fan-made checklist. Not affiliated with, endorsed or sponsored by KONAMI. Castlevania is a trademark of KONAMI.",
   "colors": ["#B3123A", "#6E3BA8"],
-  "news": "Boss count fixed to 14 bosses across 18 fights, plus a boss-fight goal.",
+  "news": "Added the 15 spells and Main Hall collectible counts.",
   "categories": [
     {"id": "areas", "name": "Explore every area", "icon": "map", "note": "Each area shows its own completion percentage in the game. 1,765 completion parts across all 9 areas.", "items": [
       {"id": "cvbc.a.streets-of-paris-100", "name": "Streets of Paris: 100%", "detail": "319 completion parts: rooms, items, doors and more."},
       {"id": "cvbc.a.holy-innocents-cemetery-100", "name": "Holy Innocents' Cemetery: 100%", "detail": "176 completion parts: rooms, items, doors and more."},
       {"id": "cvbc.a.catacombs-of-paris-100", "name": "Catacombs of Paris: 100%", "detail": "211 completion parts: rooms, items, doors and more."},
-      {"id": "cvbc.a.main-hall-100", "name": "Main Hall: 100%", "detail": "267 completion parts: rooms, items, doors and more."},
+      {"id": "cvbc.a.main-hall-100", "name": "Main Hall: 100%", "detail": "267 completion parts: rooms, items, doors and more. Per early guides it holds 7 relics, 9 Mirrors of Life, 6 clues, 4 weapons, 21 XP statues and 2 bosses."},
       {"id": "cvbc.a.library-100", "name": "Library: 100%", "detail": "139 completion parts: rooms, items, doors and more."},
       {"id": "cvbc.a.clock-tower-100", "name": "Clock Tower: 100%", "detail": "236 completion parts: rooms, items, doors and more."},
       {"id": "cvbc.a.notre-dame-100", "name": "Notre-Dame: 100%", "detail": "235 completion parts: rooms, items, doors and more."},
@@ -40,6 +40,7 @@
       {"id": "cvbc.c.every-clue", "name": "All 40 clues", "detail": "Finding every clue earns a trophy.", "group": "Secrets"},
       {"id": "cvbc.c.every-tarot-card-complete", "name": "Every Tarot Card complete", "detail": "15 cards to collect, plus the one you start with.", "group": "Arcana"},
       {"id": "cvbc.c.every-arcana-levelled", "name": "Every Arcana levelled", "detail": "All 42 Gifts across the 15 collected Arcana.", "group": "Arcana"},
+      {"id": "cvbc.c.spells-15", "name": "Learn all 15 spells", "detail": "Guides count spells separately from Arcana cards. Per early guides; the total may change.", "group": "Arcana"},
       {"id": "cvbc.c.movement-5", "name": "All 5 movement skills", "group": "Abilities"}
     ]},
     {"id": "extras", "name": "Secrets & trophy goals", "icon": "sports", "note": "30 trophies on PlayStation (29 achievements elsewhere). Turn Custom Mode off: it can block some of them.", "items": [

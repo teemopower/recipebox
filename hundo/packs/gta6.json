@@ -2,11 +2,11 @@
   "id": "gta6",
   "title": "GTA VI",
   "subtitle": "Leonida checklist",
-  "version": 6,
+  "version": 7,
   "updated": "Nov 25, 2026",
   "disclaimer": "Unofficial fan-made checklist. Not affiliated with, endorsed or sponsored by Rockstar Games or Take-Two Interactive. Grand Theft Auto and GTA are trademarks of Take-Two Interactive.",
   "colors": ["#FF4FA3", "#FF9F43"],
-  "news": "Biggest update yet: full stunt, style, weapon and animal breakdowns, every \"all\" goal and new side quest lines.",
+  "news": "Added the 85 meteorite chunks and clearer meditation tips.",
   "categories": [
     {"id": "explore", "name": "Explore Leonida", "icon": "map", "note": "The six regions Rockstar has shown, plus named spots in Vice City.", "items": [
       {"id": "gta6.r.vice-city", "name": "Reach Vice City", "detail": "The neon, beach-and-nightlife heart of Leonida.", "group": "Regions"},
@@ -54,7 +54,7 @@
       {"id": "gta6.s.labs-line", "name": "Finish the lab-busting side quest line", "detail": "Its last job earns a hidden trophy.", "group": "Side stories"},
       {"id": "gta6.s.moses-deliveries", "name": "Finish the car delivery jobs for Moses", "detail": "These count as optional tasks toward 100%.", "group": "Side stories"}
     ]},
-    {"id": "collectibles", "name": "Collectibles", "icon": "star", "note": "Totals from launch-week guides: 18 card sets (480 cards), 397 stunts, 80 challenges, 125 flamingos, 33 underwater finds, 34 reads. Where 100% needs fewer than all, both goals are listed. Counts get corrected if guides change them.", "items": [
+    {"id": "collectibles", "name": "Collectibles", "icon": "star", "note": "Totals from launch-week guides: 18 card sets (480 cards), 397 stunts, 80 challenges, 125 flamingos, 33 underwater finds, 34 reads, 85 meteorite chunks. Where 100% needs fewer than all, both goals are listed. Counts get corrected if guides change them.", "items": [
       {"id": "gta6.c.cards-1", "name": "Complete a Collectible Card set", "group": "Cards"},
       {"id": "gta6.c.cards-3", "name": "Complete 3 Collectible Card sets", "detail": "Counts toward a trophy.", "group": "Cards"},
       {"id": "gta6.c.cards-15", "name": "Complete 15 of the 18 card sets", "detail": "This is what 100% completion asks for.", "group": "Cards"},
@@ -68,8 +68,9 @@
       {"id": "gta6.c.street-art", "name": "Start the street art and mural collections", "detail": "Extra Collections sets scanned the same way. Not needed for 100%.", "group": "Spots"},
       {"id": "gta6.c.ahol-112", "name": "Find all 112 pieces of Ahol street art", "detail": "11 kinds of junk art, from mattresses to traffic cones. Not needed for 100%.", "group": "Spots"},
       {"id": "gta6.c.murals-5", "name": "Scan all 5 of the 1010 murals", "detail": "Not needed for 100%.", "group": "Spots"},
-      {"id": "gta6.c.meditate-18", "name": "Fill the meditation counter to 18", "group": "Spots", "detail": "Meditating with each partner counts separately. One early Chapter 1 spot may be missable, so take it when offered."},
+      {"id": "gta6.c.meditate-18", "name": "Fill the meditation counter to 18", "group": "Spots", "detail": "Meditating with each partner counts separately. The very first spot (Chapter 1 only) is missable but not needed: skip it and a replacement spot shows up later. The last spot only appears once all the others are done."},
       {"id": "gta6.c.meditate-15", "name": "Complete 15 of the 18 meditation spots", "detail": "The amount 100% completion asks for.", "group": "Spots"},
+      {"id": "gta6.c.meteorites-85", "name": "Find all 85 meteorite chunks", "detail": "Glowing rocks tucked under trees, among rocks, on beaches and underwater. Reward not confirmed yet.", "group": "Spots"},
       {"id": "gta6.c.stunts-250", "name": "Pull off 250 stunts", "group": "Stunts"},
       {"id": "gta6.c.stunts-300", "name": "Pull off 300 stunts", "detail": "The amount 100% completion asks for.", "group": "Stunts"},
       {"id": "gta6.c.stunts-all", "name": "Pull off all 397 stunts", "detail": "Jumps, bridge runs, knife flights and base jumps.", "group": "Stunts"},
