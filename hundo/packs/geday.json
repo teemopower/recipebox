@@ -2,11 +2,11 @@
   "id": "geday",
   "title": "Gears of War: E-Day",
   "subtitle": "Campaign 100% checklist",
-  "version": 4,
-  "updated": "Nov 25, 2026",
+  "version": 5,
+  "updated": "Nov 26, 2026",
   "disclaimer": "Unofficial fan-made checklist. Not affiliated with, endorsed or sponsored by Microsoft, Xbox Game Studios or The Coalition. Gears of War is a trademark of Microsoft.",
   "colors": ["#C0392B", "#5D6D7E"],
-  "news": "Hard Case totals added: 125 in all, with a goal for each act.",
+  "news": "Secondary Objectives now broken down by act, with their rewards.",
   "categories": [
     {"id": "story", "name": "Campaign", "icon": "map", "note": "A Prologue, five Acts (26 chapters) and an Epilogue.", "items": [
       {"id": "geday.s.boot-camp", "name": "Finish Boot Camp", "detail": "The tutorial opener. It has its own achievement."},
@@ -30,10 +30,13 @@
     {"id": "extras", "name": "Hard Cases & side goals", "icon": "star", "note": "Side content in the bigger, more open chapters. Hard Case totals per early guides: 125 (Act 2: 36, Act 3: 38, Act 4: 46, Act 5: 5).", "items": [
       {"id": "geday.x.every-hard-case", "name": "All 125 Hard Cases", "detail": "Unlocks the Hard Case achievement (any difficulty, no combat needed). Each case holds a mod or mod slot; fit them at a Supply Cache. None in Act 1."},
       {"id": "geday.x.hard-cases-act2", "name": "Act 2: all 36 Hard Cases", "detail": "Per early guides (one chapter-by-chapter guide counts 35)."},
-      {"id": "geday.x.hard-cases-act3", "name": "Act 3: all 38 Hard Cases"},
+      {"id": "geday.x.hard-cases-act3", "name": "Act 3: all 38 Hard Cases", "detail": "One chapter-by-chapter guide counts 39."},
       {"id": "geday.x.hard-cases-act4", "name": "Act 4: all 46 Hard Cases", "detail": "The act with the most."},
       {"id": "geday.x.hard-cases-act5", "name": "Act 5: all 5 Hard Cases"},
-      {"id": "geday.x.every-secondary-objective", "name": "Every Secondary Objective", "detail": "Clear every campaign side objective. Any difficulty counts."},
+      {"id": "geday.x.every-secondary-objective", "name": "Every Secondary Objective", "detail": "Only in the four open-district chapters (one in Act 2, one in Act 3, two in Act 4); early guides list at least 16. Rewards are weapon and armor mods you fit at a Supply Cache. Any difficulty counts."},
+      {"id": "geday.x.secondary-act2", "name": "Act 2: all 7 Secondary Objectives", "detail": "All in the act's open-district chapter."},
+      {"id": "geday.x.secondary-act3", "name": "Act 3: all 3 Secondary Objectives", "detail": "All in the act's open-district chapter."},
+      {"id": "geday.x.secondary-act4", "name": "Act 4: every Secondary Objective", "detail": "Spread over two open-district chapters; early guides list at least 6."},
       {"id": "geday.x.every-supply-cache", "name": "Every Supply Cache", "detail": "Unlock every Supply Cache item in the campaign."}
     ]},
     {"id": "feats", "name": "Combat feats", "icon": "star", "note": "Enemy and weapon feats. Campaign or Horde both count.", "items": [
@@ -47,7 +50,7 @@
     ]},
     {"id": "horde", "name": "Horde Siege", "icon": "sports", "note": "The co-op wave mode holds about a third of the achievements. Grind goals add up across matches.", "items": [
       {"id": "geday.h.missions-50", "name": "Survive 50 Horde missions", "detail": "Infantry difficulty or higher."},
-      {"id": "geday.h.secondary-100", "name": "Finish 100 Horde secondary objectives", "detail": ""},
+      {"id": "geday.h.secondary-100", "name": "Finish 100 Horde secondary objectives", "detail": "Horde side objectives pay out weapon parts, perks and Energy."},
       {"id": "geday.h.invasions-25", "name": "Clear 25 Invasion Events", "detail": "Any difficulty."},
       {"id": "geday.h.allfather", "name": "Extract on Allfather with the whole squad alive", "detail": "The top difficulty. Bring a steady team."},
       {"id": "geday.h.revives-100", "name": "Revive teammates 100 times", "detail": ""},

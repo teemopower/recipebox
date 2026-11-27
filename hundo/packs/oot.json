@@ -2,11 +2,11 @@
   "id": "oot",
   "title": "Ocarina of Time",
   "subtitle": "Switch 2 remake checklist",
-  "version": 4,
-  "updated": "Nov 25, 2026",
+  "version": 5,
+  "updated": "Nov 26, 2026",
   "disclaimer": "Unofficial fan-made checklist. Not affiliated with, endorsed or sponsored by Nintendo. The Legend of Zelda and Ocarina of Time are trademarks of Nintendo.",
   "colors": ["#2FBF71", "#E8B923"],
-  "news": "Every Gold Skulltula reward is now listed, from 10 to 100 tokens.",
+  "news": "Added the three Hall of Fallen Foes boss trials and their trophies.",
   "categories": [
     {"id": "dungeons", "name": "Dungeons", "icon": "map", "note": "Clear every dungeon, from the Great Deku Tree to the final castle.", "items": [
       {"id": "oot.d.inside-the-deku-tree", "name": "Inside the Deku Tree", "detail": "Young Link's first dungeon, in Kokiri Forest.", "group": "Young Link"},
@@ -94,7 +94,11 @@
       {"id": "oot.q.marathon", "name": "Race the running man", "group": "Mini games"},
       {"id": "oot.q.potion-bug", "name": "Help the Castle Town potion seller with his bug problem", "detail": "New in the remake. Rewards a bottle and a refill.", "group": "Side quests"},
       {"id": "oot.q.hall-rematch", "name": "Rematch a boss in the Hall of Fallen Foes", "detail": "New in the remake. Statues of beaten foes let you fight them again.", "group": "Side quests"},
-      {"id": "oot.q.hall-all", "name": "Rematch every boss in the Hall of Fallen Foes", "detail": "Some previews mention built-in speedrun times.", "group": "Side quests"}
+      {"id": "oot.q.hall-all", "name": "Rematch every boss in the Hall of Fallen Foes", "detail": "Each single rematch saves your best time on its statue. Rewards are cosmetic only; no items.", "group": "Side quests"},
+      {"id": "oot.q.hall-trial-stones", "name": "Clear the Trial of the Spiritual Stones", "detail": "The three childhood dungeon bosses back to back. Health carries over between fights.", "group": "Side quests"},
+      {"id": "oot.q.hall-trial-sages", "name": "Clear the Trial of the Five Sages", "detail": "The five adult dungeon bosses back to back.", "group": "Side quests"},
+      {"id": "oot.q.hall-trial-hero", "name": "Clear the final Hall trial", "detail": "Every boss in a row, ending with the last battles. Opens only after you finish the story.", "group": "Side quests"},
+      {"id": "oot.q.hall-trophies", "name": "Earn all 3 trial trophies", "detail": "Each cleared trial puts a trophy in Link's house in Kokiri Forest.", "group": "Side quests"}
     ]},
     {"id": "items", "name": "Items", "icon": "sports", "note": "Every item for your item screen.", "items": [
       {"id": "oot.i.fairy-ocarina", "name": "Fairy Ocarina", "detail": "Saria's gift as you leave the forest.", "group": "Ocarinas"},
