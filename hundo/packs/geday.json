@@ -2,11 +2,11 @@
   "id": "geday",
   "title": "Gears of War: E-Day",
   "subtitle": "Campaign 100% checklist",
-  "version": 5,
-  "updated": "Nov 26, 2026",
+  "version": 6,
+  "updated": "Nov 27, 2026",
   "disclaimer": "Unofficial fan-made checklist. Not affiliated with, endorsed or sponsored by Microsoft, Xbox Game Studios or The Coalition. Gears of War is a trademark of Microsoft.",
   "colors": ["#C0392B", "#5D6D7E"],
-  "news": "Secondary Objectives now broken down by act, with their rewards.",
+  "news": "Added Act 4 Supply Caches and Secondary Objective goals.",
   "categories": [
     {"id": "story", "name": "Campaign", "icon": "map", "note": "A Prologue, five Acts (26 chapters) and an Epilogue.", "items": [
       {"id": "geday.s.boot-camp", "name": "Finish Boot Camp", "detail": "The tutorial opener. It has its own achievement."},
@@ -37,7 +37,10 @@
       {"id": "geday.x.secondary-act2", "name": "Act 2: all 7 Secondary Objectives", "detail": "All in the act's open-district chapter."},
       {"id": "geday.x.secondary-act3", "name": "Act 3: all 3 Secondary Objectives", "detail": "All in the act's open-district chapter."},
       {"id": "geday.x.secondary-act4", "name": "Act 4: every Secondary Objective", "detail": "Spread over two open-district chapters; early guides list at least 6."},
-      {"id": "geday.x.every-supply-cache", "name": "Every Supply Cache", "detail": "Unlock every Supply Cache item in the campaign."}
+      {"id": "geday.x.every-supply-cache", "name": "Every Supply Cache", "detail": "Unlock every Supply Cache item in the campaign."},
+      {"id": "geday.x.supply-act4-13", "name": "Act 4: find all 13 Supply Caches", "detail": "Per a Spanish-language guide (Vandal), spread over five of the act's six chapters."},
+      {"id": "geday.x.general-mod-slot", "name": "Earn a General Mod Slot from a Secondary Objective", "detail": "Some objectives open an extra mod slot on a weapon instead of a single mod."},
+      {"id": "geday.x.stay-in-area", "name": "Finish a Secondary Objective without leaving the mission area", "detail": "Leaving the area fails it. If a civilian dies it can still count as done."}
     ]},
     {"id": "feats", "name": "Combat feats", "icon": "star", "note": "Enemy and weapon feats. Campaign or Horde both count.", "items": [
       {"id": "geday.f.chainsaw", "name": "Chainsaw a Locust", "detail": ""},

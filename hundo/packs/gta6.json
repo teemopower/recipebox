@@ -2,11 +2,11 @@
   "id": "gta6",
   "title": "GTA VI",
   "subtitle": "Leonida checklist",
-  "version": 8,
-  "updated": "Nov 26, 2026",
+  "version": 9,
+  "updated": "Nov 27, 2026",
   "disclaimer": "Unofficial fan-made checklist. Not affiliated with, endorsed or sponsored by Rockstar Games or Take-Two Interactive. Grand Theft Auto and GTA are trademarks of Take-Two Interactive.",
   "colors": ["#FF4FA3", "#FF9F43"],
-  "news": "Meteorites now 111, plus garage, parking-spot and safehouse goals.",
+  "news": "Added fences, marked-bill and money goals; collectibles note now says 111 meteorites.",
   "categories": [
     {"id": "explore", "name": "Explore Leonida", "icon": "map", "note": "The six regions Rockstar has shown, plus named spots in Vice City.", "items": [
       {"id": "gta6.r.vice-city", "name": "Reach Vice City", "detail": "The neon, beach-and-nightlife heart of Leonida.", "group": "Regions"},
@@ -54,7 +54,7 @@
       {"id": "gta6.s.labs-line", "name": "Finish the lab-busting side quest line", "detail": "Its last job earns a hidden trophy.", "group": "Side stories"},
       {"id": "gta6.s.moses-deliveries", "name": "Finish the car delivery jobs for Moses", "detail": "These count as optional tasks toward 100%.", "group": "Side stories"}
     ]},
-    {"id": "collectibles", "name": "Collectibles", "icon": "star", "note": "Totals from launch-week guides: 18 card sets (480 cards), 397 stunts, 80 challenges, 125 flamingos, 33 underwater finds, 34 reads, 85 meteorite chunks. Where 100% needs fewer than all, both goals are listed. Counts get corrected if guides change them.", "items": [
+    {"id": "collectibles", "name": "Collectibles", "icon": "star", "note": "Totals from launch-week guides: 18 card sets (480 cards), 397 stunts, 80 challenges, 125 flamingos, 33 underwater finds, 34 reads, 111 meteorite chunks. Where 100% needs fewer than all, both goals are listed. Counts get corrected if guides change them.", "items": [
       {"id": "gta6.c.cards-1", "name": "Complete a Collectible Card set", "group": "Cards"},
       {"id": "gta6.c.cards-3", "name": "Complete 3 Collectible Card sets", "detail": "Counts toward a trophy.", "group": "Cards"},
       {"id": "gta6.c.cards-15", "name": "Complete 15 of the 18 card sets", "detail": "This is what 100% completion asks for.", "group": "Cards"},
@@ -105,6 +105,11 @@
       {"id": "gta6.h.bank-jobs-22", "name": "Pull all 22 bank jobs", "group": "Crime"},
       {"id": "gta6.h.payday-7", "name": "Hit all 7 payday loan stores", "group": "Crime"},
       {"id": "gta6.h.vaults-8", "name": "Crack all 8 vaults", "group": "Crime"},
+      {"id": "gta6.h.vault-max", "name": "Walk out of a big bank vault with the full haul", "detail": "Per early guides the biggest vault jobs pay up to about $205,000 in marked bills.", "group": "Crime"},
+      {"id": "gta6.h.truck-tip", "name": "Buy an armored truck route tip from a fence", "detail": "About $10,000 per tip, per early guides.", "group": "Crime"},
+      {"id": "gta6.h.tow-atm", "name": "Tow away a street ATM", "detail": "One of the ways to make money in Leonida.", "group": "Crime"},
+      {"id": "gta6.h.crack-safe", "name": "Crack a safe", "group": "Crime"},
+      {"id": "gta6.h.money-cheat", "name": "Unlock the money cheat", "detail": "Opens up after you finish the story, per GTABase.", "group": "Money"},
       {"id": "gta6.h.smash-34", "name": "Pull off 34 smash-and-grabs", "detail": "35 in all.", "group": "Crime"},
       {"id": "gta6.h.smash-35", "name": "Pull off all 35 smash-and-grabs", "detail": "20 jewelry stores and 15 pawn shops.", "group": "Crime"},
       {"id": "gta6.h.stickups-50", "name": "Pull off 50 stick-ups", "detail": "91 in all.", "group": "Crime"},
@@ -112,6 +117,10 @@
       {"id": "gta6.h.fence-narcotics", "name": "Fence $100,000 in narcotics", "group": "Fences"},
       {"id": "gta6.h.fence-jewelry", "name": "Fence $100,000 in jewelry", "group": "Fences"},
       {"id": "gta6.h.fence-vehicles", "name": "Fence $200,000 in vehicles", "group": "Fences"},
+      {"id": "gta6.h.fences-7", "name": "Unlock all 7 fences", "detail": "5 buy narcotics, jewelry and marked bills (at different rates); 2 only buy stolen cars. They open up with story progress.", "group": "Fences"},
+      {"id": "gta6.h.dye-pack-jammer", "name": "Get the Dye Pack Jammer", "detail": "Fences won't touch marked bills until you have it. Comes with story progress in chapter 3.", "group": "Fences"},
+      {"id": "gta6.h.garage-pickup", "name": "Unlock garage pickup for stolen goods", "detail": "Opens after a couple of payday loan jobs for one of the fences; costs a small fee per pickup.", "group": "Fences"},
+      {"id": "gta6.h.sell-every-way", "name": "Sell loot every way at least once", "detail": "Drop box, in person, garage pickup, and letting your partner do the fencing (pays a bit less).", "group": "Fences"},
       {"id": "gta6.h.races-30", "name": "Win 30 of the 40 unique races", "group": "Racing"},
       {"id": "gta6.h.race-challenges-10", "name": "Gold on 10 of the 13 race challenges", "group": "Racing"},
       {"id": "gta6.h.races-40", "name": "Win all 40 unique races", "detail": "Spread across 6 race groups.", "group": "Racing"},
@@ -173,7 +182,7 @@
       {"id": "gta6.t.ten-pin", "name": "Knock down 10 pedestrians on a bike within 60 seconds", "group": "Just for fun"},
       {"id": "gta6.t.ufo", "name": "Catch something strange in the night sky", "detail": "Late at night, alone, out in the countryside. May take a few tries.", "group": "Just for fun"},
       {"id": "gta6.t.repeat-robbery", "name": "Rob the same payday loan store a second time and escape on foot", "detail": "Opens up later in the story.", "group": "Crime"},
-      {"id": "gta6.t.launder", "name": "Launder $250,000 in Marked Bills", "group": "Money"},
+      {"id": "gta6.t.launder", "name": "Launder $250,000 in Marked Bills", "detail": "Sell marked bills through fences. Per KeenGamer it also counts toward 100%.", "group": "Money"},
       {"id": "gta6.t.spend", "name": "Spend $100,000 in shops", "group": "Money"},
       {"id": "gta6.t.hundo", "name": "Reach 100% completion", "group": "The big ones"},
       {"id": "gta6.t.platinum", "name": "Unlock the Platinum", "detail": "PlayStation only. On Xbox, unlock every achievement.", "group": "The big ones"}
